@@ -1,0 +1,17 @@
+<div class="details" *ngIf="doc">
+  <div class="card">
+    <div class="title">
+      <i class="fas" [ngClass]="getIcon(doc)"></i>
+      {{doc.name}}
+    </div>
+    <div *ngIf="doc.type === 'character'" class="image" [style.background-image]="getImageUrl(doc.name)">
+      <!-- <img *ngIf="result.type === 'character'" src="/assets/images/{{result.name}}.png"> -->
+    </div>
+    <div class="story">
+    <!-- <p class="bio">Short Biography</p> -->
+    <app-story [uri]="doc.uri"></app-story>
+  </div>
+  </div>
+
+  <app-graph iri="{{getIri()+doc.id}}"></app-graph>
+</div>

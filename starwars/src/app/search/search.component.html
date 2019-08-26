@@ -1,0 +1,23 @@
+<div class="header">
+  <form [formGroup]="searchForm" (ngSubmit)="search()">
+    <div style="text-align:center">
+      <input formControlName="q" type="text">
+      <button type="submit">Search</button>
+    </div>
+  </form>
+</div>
+
+<div class="responses">
+  <div *ngIf="!results || !results.length">
+    <h2>No Results Found</h2>
+  </div>
+  <div class="card" *ngFor="let result of results">
+    <div class="title">
+      <i class="fas" [ngClass]="getIcon(result)"></i>
+      <a routerLink="/details" [queryParams]="{uri: result.uri}">{{result.name}}</a>
+    </div>
+    <div *ngIf="result.type === 'character'" class="image" [style.background-image]="getImageUrl(result.name)">
+      <!-- <img *ngIf="result.type === 'character'" src="/assets/images/{{result.name}}.png"> -->
+    </div>
+  </div>
+</div>

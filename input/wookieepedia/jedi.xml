@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forceusers>
+   <jedi>
+      <name>Luke Skywalker</name>
+      <rank>Jedi Knight</rank>
+      <species>Human</species>
+      <trainedBy>Obi-Wan Kenobi</trainedBy>
+   </jedi>
+   <jedi>
+      <name>Qui-Gon Jinn</name>
+      <rank>Jedi Master</rank>
+      <species>Human</species>
+      <trainedBy>Count Dooku</trainedBy>
+   </jedi>
+   <jedi>
+      <name>Obi-Wan Kenobi</name>
+      <rank>Jedi Master</rank>
+      <species>Human</species>
+      <trainedBy>Qui-Gon Jinn</trainedBy>
+   </jedi>
+   <jedi>
+      <name>Anakin Skywalker</name>
+      <rank>Jedi Knight</rank>
+      <species>Human</species>
+      <trainedBy>Obi-Wan Kenobi</trainedBy>
+   </jedi>
+   <jedi>
+      <name>Quinlan Vos</name>
+      <rank>Jedi Master</rank>
+      <species>Human/Kiffar</species>
+      <trainedBy>Tholme</trainedBy>
+   </jedi>
+   <jedi>
+      <masterTo>
+         <jedi>Count Dooku</jedi>
+         <jedi>Luke Skywalker</jedi>
+      </masterTo>
+      <name>Yoda</name>
+      <rank>Grand Master</rank>
+      <species>Unknown</species>
+   </jedi>
+   <jedi>
+      <homeworld>Haruun Kal</homeworld>
+      <name>Mace Windu</name>
+      <rank>Jedi Master</rank>
+      <species>Human</species>
+   </jedi>
+   <jedi>
+      <name>Ki-Adi-Mundi</name>
+      <rank>Jedi Master</rank>
+      <species>Cerean</species>
+   </jedi>
+   <jedi>
+      <homeworld>Dorin</homeworld>
+      <name>Plo Koon</name>
+      <rank>Jedi Master</rank>
+      <species>Kel Dor</species>
+   </jedi>
+   <jedi>
+      <knownFor>Starfighter piloting skills</knownFor>
+      <name>Saesee Tiin</name>
+      <rank>Jedi Master</rank>
+      <species>Iktotchi</species>
+   </jedi>
+   <jedi>
+      <knownFor>Strong affinity for the Force</knownFor>
+      <name>Yaddle</name>
+      <rank>Jedi Master</rank>
+      <species>Unknown</species>
+   </jedi>
+   <jedi>
+      <knownFor>Lightsaber combat abilities</knownFor>
+      <name>Even Piell</name>
+      <rank>Jedi Master</rank>
+      <species>Lannik</species>
+   </jedi>
+   <jedi>
+      <knownFor>Tactical insight</knownFor>
+      <name>Oppo Rancisis</name>
+      <rank>Jedi Master</rank>
+      <species>Thisspiasian</species>
+   </jedi>
+   <jedi>
+      <knownFor>Form V lightsaber combat</knownFor>
+      <name>Adi Gallia</name>
+      <rank>Jedi Master</rank>
+      <species>Tholothian</species>
+   </jedi>
+   <jedi>
+      <knownFor>The art of mind control</knownFor>
+      <name>Yarael Poof</name>
+      <rank>Jedi Master</rank>
+      <species>Quermian</species>
+   </jedi>
+   <jedi>
+      <homeworld>Nar Shaddaa</homeworld>
+      <name>Eeth Koth</name>
+      <rank>Jedi Master</rank>
+      <species>Zabrak</species>
+   </jedi>
+   <jedi>
+      <masterTo>
+         <jedi>Kanan Jarrus</jedi>
+      </masterTo>
+      <name>Depa Billaba</name>
+      <rank>Jedi Master</rank>
+      <species>Chalactan</species>
+   </jedi>
+   <jedi>
+      <masterTo>
+         <jedi>Nahdar Vebb</jedi>
+      </masterTo>
+      <name>Kit Fisto</name>
+      <rank>Jedi Master</rank>
+      <species>Nautolan</species>
+   </jedi>
+   <jedi>
+      <masterTo>
+         <jedi>Barriss Offee</jedi>
+      </masterTo>
+      <name>Luminara Unduli</name>
+      <rank>Jedi Master</rank>
+      <species>Mirialan</species>
+   </jedi>
+   <jedi>
+      <name>Barriss Offee</name>
+      <rank>Padawan</rank>
+      <species>Mirialan</species>
+      <trainedBy>Luminara Unduli</trainedBy>
+   </jedi>
+   <jedi>
+      <homeworld>Shili</homeworld>
+      <name>Shaak Ti</name>
+      <rank>Jedi Master</rank>
+      <species>Togruta</species>
+   </jedi>
+   <jedi>
+      <homeworld>Sembla</homeworld>
+      <name>Coleman Trebor</name>
+      <rank>Jedi Master</rank>
+      <species>Vurk</species>
+   </jedi>
+   <jedi>
+      <homeworld>Coruscant</homeworld>
+      <name>Jocasta Nu</name>
+      <rank>Jedi Master</rank>
+      <species>Human</species>
+   </jedi>
+   <jedi>
+      <name>Zett Jukassa</name>
+      <rank>Padawan</rank>
+      <species>Human</species>
+   </jedi>
+   <jedi>
+      <name>Aayla Secura</name>
+      <rank>Jedi Master</rank>
+      <species>Twi'lek</species>
+      <trainedBy>Quinlan Vos</trainedBy>
+   </jedi>
+   <jedi>
+      <homeworld>Cassandran Worlds</homeworld>
+      <name>Sifo-Dyas</name>
+      <rank>Jedi Master</rank>
+      <species>Human</species>
+   </jedi>
+   <jedi>
+      <name>Count Dooku</name>
+      <rank>Jedi Master</rank>
+      <species>Human</species>
+      <trainedBy>Yoda</trainedBy>
+   </jedi>
+   <jedi>
+      <name>Pablo-Jill/Bultar Swan</name>
+      <rank>Jedi Knight</rank>
+      <species>Unknown (Ongree?)/Human</species>
+   </jedi>
+   <jedi>
+      <name>Agen Kolar</name>
+      <rank>Jedi Master</rank>
+      <species>Zabrak</species>
+   </jedi>
+   <jedi>
+      <name>Stass Allie</name>
+      <rank>Jedi Master</rank>
+      <species>Tholothian</species>
+   </jedi>
+   <jedi>
+      <name>Ahsoka Tano</name>
+      <rank>Padawan</rank>
+      <species>Togruta</species>
+      <trainedBy>Anakin Skywalker</trainedBy>
+   </jedi>
+   <jedi>
+      <name>Asajj Ventress</name>
+      <rank>Padawan</rank>
+      <species>Dathomirian</species>
+      <trainedBy>Ky Narec</trainedBy>
+   </jedi>
+   <jedi>
+      <name>Ima-Gun Di</name>
+      <rank>Jedi Master</rank>
+      <species>Nikto</species>
+   </jedi>
+   <jedi>
+      <name>Nahdar Vebb</name>
+      <rank>Jedi Knight</rank>
+      <species>Mon Calamari</species>
+      <trainedBy>Kit Fisto</trainedBy>
+   </jedi>
+   <jedi>
+      <name>Bolla Ropal</name>
+      <rank>Jedi Master</rank>
+      <species>Rodian</species>
+   </jedi>
+   <jedi>
+      <name>Ord Enisence</name>
+      <rank>Jedi Master</rank>
+      <species>Skrilling</species>
+   </jedi>
+</forceusers>

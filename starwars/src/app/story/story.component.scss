@@ -1,0 +1,87 @@
+:host {
+  display: block;
+  flex: 1;
+}
+
+.story-container {
+  padding: 10px 20px;
+}
+
+.full-story-container {
+  padding: 20px 40px 40px 40px;
+
+  p {
+    font-size: 24px;
+  }
+}
+
+h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-top: 0px;
+}
+
+.full-story-container span {
+  font-weight: bold;
+  font-size: 24px;
+  border: #AAAAAA dashed 1px;
+  color: #333;
+  animation-name: coloranim;
+  animation-duration: 4s;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.character {
+  background-color: #b7dff8;
+}
+
+.planet {
+  background-color: #adddcf;
+}
+
+.starship {
+  background-color: #f0e0a2;
+}
+
+.planets {
+  background-color: #adddcf;
+}
+
+.starships {
+  background-color: #f0e0a2;
+}
+
+.legend {
+  margin-top: 12px;
+  padding-left: 25px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.character-legend{
+   width: 25px;
+   height: 25px;
+   background-color: #b7dff8;
+ }
+
+.planet-legend{
+  width: 25px;
+  height: 25px;
+  background-color: #adddcf;
+}
+
+.starship-legend{
+  width: 25px;
+  height: 25px;
+  background-color: #f0e0a2;
+}
+
+@keyframes coloranim {
+    from {color: red;}
+    to {color: #333;}
+}

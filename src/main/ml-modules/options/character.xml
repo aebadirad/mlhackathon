@@ -1,0 +1,54 @@
+<options xmlns='http://marklogic.com/appservices/search'>
+  <search-option>unfiltered</search-option>
+  <quality-weight>0</quality-weight>
+  <extract-document-data selected="include">
+    <extract-path>//*:instance/*</extract-path>
+  </extract-document-data>
+  <constraint name="gender">
+    <value>
+      <element ns="" name="gender"/>
+    </value>
+  </constraint> 
+  <constraint name="type">
+    <value>
+      <element ns="" name="title"/>
+    </value>
+  </constraint>
+    <constraint name="homeworld">
+    <value>
+      <element ns="" name="homeworld"/>
+    </value>
+  </constraint>
+	<constraint name="species">
+    <value>
+      <element ns="" name="species"/>
+    </value>
+  </constraint>
+  <constraint name="age">
+    <value>
+      <element ns="" name="age"/>
+    </value>
+  </constraint>
+  <constraint name="force">
+    <value>
+      <element ns="" name="force"/>
+    </value>
+  </constraint>
+  <constraint name="climate">
+    <value>
+      <element ns="" name="climate"/>
+    </value>
+  </constraint> 
+    <constraint name="liveson">
+    <value>
+      <element ns="" name="residents"/>
+    </value>
+  </constraint>
+  <additional-query>
+    <cts:not-query xmlns:cts="http://marklogic.com/cts">
+      <cts:collection-query>
+        <cts:uri>http://marklogic.com/entity-services/models</cts:uri>
+      </cts:collection-query>
+    </cts:not-query>
+  </additional-query>
+</options>

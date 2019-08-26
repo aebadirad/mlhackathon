@@ -1,0 +1,27 @@
+.header {
+  background: #29333d;
+  padding: 10px;
+  text-align: center;
+
+  ul {
+    margin: 10px 0px;
+    padding: 0px;
+    list-style: none;
+
+    li {
+      display: inline;
+      color: white;
+      padding: 2px 20px;
+
+      a {
+        cursor: pointer;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        &:visited {
+          color: white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "info" : {
+    "title" : "Planets",
+    "version" : "0.0.1",
+    "baseUri" : "http://marklogic.com/mlworld"
+  },
+  "definitions" : {
+    "Planets" : {
+      "primaryKey" : "id",
+      "required" : [ ],
+      "elementRangeIndex" : [ ],
+      "rangeIndex" : [ ],
+      "wordLexicon" : [ ],
+      "properties" : {
+        "id" : {
+          "datatype" : "integer"
+        },
+        "name" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "climate" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "residents" : {
+          "datatype" : "array",
+          "items" : {
+            "$ref" : "#/definitions/Character"
+          }
+        },
+        "terrain" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "population" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "orbital_period" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "rotation_period" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "diameter" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        }
+      }
+    }
+  }
+}

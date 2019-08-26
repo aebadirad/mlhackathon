@@ -1,0 +1,64 @@
+{
+  "info" : {
+    "title" : "Character",
+    "version" : "0.0.1",
+    "baseUri" : "http://marklogic.com/mlworld"
+  },
+  "definitions" : {
+    "Character" : {
+      "primaryKey" : "id",
+      "required" : [ ],
+      "elementRangeIndex" : [ "name", "id" ],
+      "rangeIndex" : [ ],
+      "wordLexicon" : [ ],
+      "properties" : {
+        "name" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "age" : {
+          "datatype" : "integer"
+        },
+        "description" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "gender" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "id" : {
+          "datatype" : "integer"
+        },
+        "species" : {
+          "datatype" : "array",
+          "items" : {
+            "$ref" : "#/definitions/Species"
+          }
+        },
+        "homeworld" : {
+          "$ref" : "#/definitions/Planets"
+        },
+        "starships" : {
+          "datatype" : "array",
+          "items" : {
+            "$ref" : "#/definitions/Starships"
+          }
+        },
+        "force" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "trainedby" : {
+          "$ref" : "#/definitions/Character"
+        },
+        "relatives" : {
+          "datatype" : "array",
+          "items" : {
+            "$ref" : "#/definitions/Character"
+          }
+        }
+      }
+    }
+  }
+}

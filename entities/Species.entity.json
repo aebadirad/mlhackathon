@@ -1,0 +1,41 @@
+{
+  "info" : {
+    "title" : "Species",
+    "version" : "0.0.1",
+    "baseUri" : "http://marklogic.com/mlworld"
+  },
+  "definitions" : {
+    "Species" : {
+      "primaryKey" : "id",
+      "required" : [ ],
+      "elementRangeIndex" : [ ],
+      "rangeIndex" : [ ],
+      "wordLexicon" : [ ],
+      "properties" : {
+        "id" : {
+          "datatype" : "decimal"
+        },
+        "name" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "classification" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "average_height" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "average_lifespan" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "homeworld" : {
+          "$ref" : "#/definitions/Planets",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        }
+      }
+    }
+  }
+}

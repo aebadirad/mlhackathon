@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forceuser>
+   <sith>
+      <name>Darth Bane</name>
+   </sith>
+   <sith>
+      <name>Darth Zannah</name>
+      <trainedBy>Darth Bane</trainedBy>
+   </sith>
+   <sith>
+      <name>Darth Cognus</name>
+   </sith>
+   <sith>
+      <name>Darth Millennial</name>
+   </sith>
+   <sith>
+      <name>A male humanoid</name>
+   </sith>
+   <sith>
+      <name>A male Devaronian</name>
+   </sith>
+   <sith>
+      <name>A male humanoid II</name>
+   </sith>
+   <sith>
+      <name>Darth Vectivus</name>
+   </sith>
+   <sith>
+      <name>Darth Gravid</name>
+   </sith>
+   <sith>
+      <name>Darth Gean</name>
+   </sith>
+   <sith>
+      <name>Darth Ramage</name>
+   </sith>
+   <sith>
+      <name>Darth Tenebrous</name>
+   </sith>
+   <sith>
+      <name>Darth Venamis</name>
+      <trainedBy>Darth Tenebrous</trainedBy>
+   </sith>
+   <sith>
+      <name>Darth Plagueis</name>
+      <trainedBy>Darth Tenebrous</trainedBy>
+   </sith>
+   <sith>
+      <name>Palpatine</name>
+      <trainedBy>Darth Plagueis</trainedBy>
+   </sith>
+   <sith>
+      <name>Darth Maul</name>
+      <trainedBy>Palpatine</trainedBy>
+   </sith>
+   <sith>
+      <name>Dooku</name>
+	  <trainedBy>Palpatine</trainedBy>
+   </sith>
+   <sith>
+      <name>Darth Vader</name>
+      <trainedBy>Palpatine</trainedBy>
+   </sith>
+</forceuser>
