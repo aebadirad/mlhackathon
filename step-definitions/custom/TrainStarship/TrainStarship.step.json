@@ -1,0 +1,22 @@
+{
+  "language" : "zxx",
+  "name" : "TrainStarship",
+  "description" : "",
+  "type" : "CUSTOM",
+  "version" : 1,
+  "options" : {
+    "additionalCollections" : [ "starships" ],
+    "sourceQuery" : "cts.collectionQuery([\"starships\"])",
+    "targetEntity" : "",
+    "collections" : [ "TrainStarship", "starships" ],
+    "sourceDatabase" : "data-hub-FINAL",
+    "sourceCollection" : "starships",
+    "outputFormat" : "json",
+    "targetDatabase" : "data-hub-FINAL"
+  },
+  "customHook" : { },
+  "modulePath" : "/custom-modules/custom/TrainStarship/main.sjs",
+  "retryLimit" : 0,
+  "batchSize" : 100,
+  "threadCount" : 4
+}

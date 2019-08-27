@@ -1,0 +1,18 @@
+{
+  "language" : "zxx",
+  "name" : "StarshipMap",
+  "description" : null,
+  "type" : "CUSTOM",
+  "version" : 1,
+  "options" : {
+    "collections" : [ "StarshipMap" ],
+    "sourceDatabase" : "data-hub-STAGING",
+    "outputFormat" : "json",
+    "targetDatabase" : "data-hub-FINAL"
+  },
+  "customHook" : { },
+  "modulePath" : "/custom-modules/custom/StarshipMap/main.sjs",
+  "retryLimit" : 0,
+  "batchSize" : 100,
+  "threadCount" : 4
+}

@@ -1,0 +1,18 @@
+{
+  "language" : "zxx",
+  "name" : "PlanetMap",
+  "description" : null,
+  "type" : "CUSTOM",
+  "version" : 1,
+  "options" : {
+    "collections" : [ "PlanetMap" ],
+    "sourceDatabase" : "data-hub-STAGING",
+    "outputFormat" : "json",
+    "targetDatabase" : "data-hub-FINAL"
+  },
+  "customHook" : { },
+  "modulePath" : "/custom-modules/custom/PlanetMap/main.sjs",
+  "retryLimit" : 0,
+  "batchSize" : 100,
+  "threadCount" : 4
+}

@@ -20,6 +20,9 @@ const datahub = new DataHub();
 function main(content, options) {
 
   let newContent = {};
+  let doc = content.value;
+
+  let instance = datahub.flow.flowUtils.getInstance(doc).toObject();
 
   //form our envelope here now, specifying our output format
   let envelope = datahub.flow.flowUtils.makeEnvelope(instance, headers, triples, outputFormat);

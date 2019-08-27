@@ -1,0 +1,35 @@
+{
+  "name" : "TrainModels",
+  "description" : "",
+  "batchSize" : 100,
+  "threadCount" : 4,
+  "stopOnError" : false,
+  "options" : { },
+  "version" : 0,
+  "steps" : {
+    "1" : {
+      "name" : "TrainStarship",
+      "description" : "",
+      "options" : {
+        "additionalCollections" : [ "starships" ],
+        "sourceQuery" : "cts.collectionQuery([\"starships\"])",
+        "targetEntity" : "",
+        "collections" : [ "TrainStarship", "starships" ],
+        "sourceDatabase" : "data-hub-FINAL",
+        "sourceCollection" : "starships",
+        "outputFormat" : "json",
+        "targetDatabase" : "data-hub-FINAL"
+      },
+      "customHook" : null,
+      "retryLimit" : null,
+      "batchSize" : null,
+      "threadCount" : null,
+      "stepDefinitionName" : "TrainStarship",
+      "stepDefinitionType" : "CUSTOM",
+      "modulePath" : "/custom-modules/custom/TrainStarship/main.sjs",
+      "mappingName" : null,
+      "mappingStep" : false,
+      "customStep" : true
+    }
+  }
+}

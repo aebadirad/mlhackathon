@@ -1,0 +1,45 @@
+{
+  "name" : "DataDictionary",
+  "description" : "",
+  "batchSize" : 100,
+  "threadCount" : 4,
+  "stopOnError" : false,
+  "options" : { },
+  "version" : 0,
+  "steps" : {
+    "1" : {
+      "name" : "DataDictionary",
+      "description" : "",
+      "options" : {
+        "additionalCollections" : [ ],
+        "headers" : {
+          "sources" : [ {
+            "name" : "DataDictionary"
+          } ],
+          "createdOn" : "currentDateTime",
+          "createdBy" : "currentUser"
+        },
+        "sourceQuery" : "cts.collectionQuery([])",
+        "collections" : [ "DataDictionary" ],
+        "permissions" : "rest-reader,read,rest-writer,update",
+        "outputFormat" : "xml",
+        "targetDatabase" : "data-hub-STAGING"
+      },
+      "customHook" : { },
+      "retryLimit" : null,
+      "batchSize" : null,
+      "threadCount" : null,
+      "stepDefinitionName" : "default-ingestion",
+      "stepDefinitionType" : "INGESTION",
+      "fileLocations" : {
+        "inputFilePath" : "C:\\Users\\Alex\\Documents\\mlhackathon\\input\\manual",
+        "inputFileType" : "xml",
+        "outputURIReplacement" : "",
+        "separator" : ","
+      },
+      "mappingName" : null,
+      "mappingStep" : false,
+      "customStep" : false
+    }
+  }
+}

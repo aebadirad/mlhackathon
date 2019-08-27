@@ -1,0 +1,10 @@
+{
+  "language" : "zxx",
+  "name" : "StarshipFlow-StarshipMap",
+  "description" : "",
+  "version" : 0,
+  "targetEntityType" : "http://marklogic.com/mlworldStarships-0.0.1/Starships",
+  "sourceContext" : "/",
+  "sourceURI" : "",
+  "properties" : { }
+}

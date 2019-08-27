@@ -1,0 +1,32 @@
+{
+  "language" : "zxx",
+  "name" : "StarshipFlow-StarshipMap",
+  "description" : "Default description",
+  "version" : 2,
+  "targetEntityType" : "http://marklogic.com/mlworldStarships-0.0.1/Starships",
+  "sourceContext" : "/",
+  "sourceURI" : "/C/Users/Alex/Documents/mlhackathon/input/swapi/starships/13.json",
+  "properties" : {
+    "passengers" : {
+      "sourcedFrom" : "passengers"
+    },
+    "name" : {
+      "sourcedFrom" : "name"
+    },
+    "length" : {
+      "sourcedFrom" : "length"
+    },
+    "model" : {
+      "sourcedFrom" : "model"
+    },
+    "id" : {
+      "sourcedFrom" : "id"
+    },
+    "manufacturer" : {
+      "sourcedFrom" : "manufacturer"
+    },
+    "crew" : {
+      "sourcedFrom" : "crew"
+    }
+  }
+}
