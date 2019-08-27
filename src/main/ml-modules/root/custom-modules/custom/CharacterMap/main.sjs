@@ -54,7 +54,7 @@ function main(content, options) {
   let force = null;
   let trainedBy = null;
 
-  let forceUsersDoc = fn.head(cts.search(cts.andQuery([name, cts.collectionQuery('Wookieepedia')])));
+  let forceUsersDoc = fn.head(cts.search(cts.andQuery([name, cts.collectionQuery('DataDictionary')])));
   if(forceUsersDoc){
     force = fn.head(forceUsersDoc.xpath('//*[self::jedi or self::sith][name = "'+name+'"]/name()'));
     trainedBy = fn.head(forceUsersDoc.xpath('//*[self::jedi or self::sith][name = "'+name+'"]/trainedBy/text()'));

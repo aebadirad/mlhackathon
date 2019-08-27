@@ -26,15 +26,15 @@
         "targetDatabase" : "data-hub-STAGING"
       },
       "customHook" : { },
-      "retryLimit" : 0,
-      "batchSize" : 0,
-      "threadCount" : 0,
+      "retryLimit" : null,
+      "batchSize" : null,
+      "threadCount" : null,
       "stepDefinitionName" : "default-ingestion",
       "stepDefinitionType" : "INGESTION",
       "fileLocations" : {
         "inputFilePath" : "C:\\Users\\Alex\\Documents\\mlhackathon\\input\\swapi\\planets",
         "inputFileType" : "json",
-        "outputURIReplacement" : "",
+        "outputURIReplacement" : "/C/Users/Alex/Documents/mlhackathon/input/swapi,''",
         "separator" : ","
       },
       "mappingName" : null,
@@ -55,9 +55,9 @@
         "targetDatabase" : "data-hub-FINAL"
       },
       "customHook" : null,
-      "retryLimit" : null,
-      "batchSize" : null,
-      "threadCount" : null,
+      "retryLimit" : 0,
+      "batchSize" : 0,
+      "threadCount" : 0,
       "stepDefinitionName" : "PlanetMap",
       "stepDefinitionType" : "CUSTOM",
       "modulePath" : "/custom-modules/custom/PlanetMap/main.sjs",

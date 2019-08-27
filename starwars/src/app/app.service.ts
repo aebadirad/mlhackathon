@@ -13,7 +13,7 @@ export class AppService {
   search(query: string): Observable<any> {
     return this.http
       .get<any>(
-        `/v1/search?q=${query}&format=json&options=character&pageLength=300`
+        `/v1/search?q=${query}&format=json&collection=character&collection=planet&collection=starship&collection=species&pageLength=300`
       )
       .pipe(
         map(result => result.results),
