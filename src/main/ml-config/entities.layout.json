@@ -7,8 +7,8 @@
     "vertices" : { }
   },
   "Planets" : {
-    "x" : 0,
-    "y" : 0,
+    "x" : 1014,
+    "y" : 94,
     "width" : 303,
     "height" : 321,
     "vertices" : { }

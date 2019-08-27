@@ -1,0 +1,32 @@
+{
+  "language" : "zxx",
+  "name" : "CharacterFlow-CharacterMapping",
+  "description" : "",
+  "version" : 1,
+  "targetEntityType" : "http://marklogic.com/mlworldCharacter-0.0.1/Character",
+  "sourceContext" : "/",
+  "sourceURI" : "/C/Users/Alex/Documents/mlhackathon/input/swapi/characters/5.json",
+  "properties" : {
+    "homeworld" : {
+      "sourcedFrom" : "homeworld"
+    },
+    "gender" : {
+      "sourcedFrom" : "gender"
+    },
+    "species" : {
+      "sourcedFrom" : "species"
+    },
+    "starships" : {
+      "sourcedFrom" : "starships"
+    },
+    "name" : {
+      "sourcedFrom" : "name"
+    },
+    "id" : {
+      "sourcedFrom" : "id"
+    },
+    "relatives" : {
+      "sourcedFrom" : "relatives"
+    }
+  }
+}

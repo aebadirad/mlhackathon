@@ -1,0 +1,10 @@
+{
+  "language" : "zxx",
+  "name" : "CharacterFlow-CharacterMapping",
+  "description" : "",
+  "version" : 0,
+  "targetEntityType" : "http://marklogic.com/mlworldCharacter-0.0.1/Character",
+  "sourceContext" : "/",
+  "sourceURI" : "",
+  "properties" : { }
+}
