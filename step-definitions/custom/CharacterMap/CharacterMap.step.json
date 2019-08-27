@@ -1,12 +1,16 @@
 {
   "language" : "zxx",
   "name" : "CharacterMap",
-  "description" : null,
+  "description" : "",
   "type" : "CUSTOM",
   "version" : 1,
   "options" : {
-    "collections" : [ "CharacterMap" ],
+    "additionalCollections" : [ "characters" ],
+    "sourceQuery" : "cts.collectionQuery([\"character\"])",
+    "targetEntity" : "",
+    "collections" : [ "CharacterMap", "characters" ],
     "sourceDatabase" : "data-hub-STAGING",
+    "sourceCollection" : "character",
     "outputFormat" : "json",
     "targetDatabase" : "data-hub-FINAL"
   },

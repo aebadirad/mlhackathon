@@ -1,12 +1,16 @@
 {
   "language" : "zxx",
   "name" : "PlanetMap",
-  "description" : null,
+  "description" : "",
   "type" : "CUSTOM",
   "version" : 1,
   "options" : {
-    "collections" : [ "PlanetMap" ],
+    "additionalCollections" : [ "planet" ],
+    "sourceQuery" : "cts.collectionQuery([\"Planets\"])",
+    "targetEntity" : "",
+    "collections" : [ "PlanetMap", "planet" ],
     "sourceDatabase" : "data-hub-STAGING",
+    "sourceCollection" : "Planets",
     "outputFormat" : "json",
     "targetDatabase" : "data-hub-FINAL"
   },

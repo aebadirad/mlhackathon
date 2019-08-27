@@ -1,12 +1,16 @@
 {
   "language" : "zxx",
   "name" : "SpeciesMap",
-  "description" : null,
+  "description" : "",
   "type" : "CUSTOM",
   "version" : 1,
   "options" : {
+    "additionalCollections" : [ ],
+    "sourceQuery" : "cts.collectionQuery([\"Species\"])",
+    "targetEntity" : "",
     "collections" : [ "SpeciesMap" ],
     "sourceDatabase" : "data-hub-STAGING",
+    "sourceCollection" : "Species",
     "outputFormat" : "json",
     "targetDatabase" : "data-hub-FINAL"
   },

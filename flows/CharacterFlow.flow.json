@@ -40,36 +40,33 @@
         "outputURIReplacement" : "",
         "separator" : ","
       },
+      "mappingName" : null,
       "mappingStep" : false,
-      "customStep" : false,
-      "mappingName" : null
+      "customStep" : false
     },
     "2" : {
-      "name" : "CharacterMapping",
+      "name" : "CharacterMap",
       "description" : "",
       "options" : {
-        "additionalCollections" : [ "CharacterMapped" ],
-        "sourceQuery" : "cts.collectionQuery([\"IngestCharacter\"])",
-        "mapping" : {
-          "name" : "CharacterFlow-CharacterMapping",
-          "version" : 1
-        },
-        "targetEntity" : "Character",
+        "additionalCollections" : [ "characters" ],
+        "sourceQuery" : "cts.collectionQuery([\"character\"])",
+        "targetEntity" : "",
+        "collections" : [ "CharacterMap", "characters" ],
         "sourceDatabase" : "data-hub-STAGING",
-        "collections" : [ "CharacterMapping", "Character", "CharacterMapped" ],
-        "sourceCollection" : "Ingest",
+        "sourceCollection" : "character",
         "outputFormat" : "json",
         "targetDatabase" : "data-hub-FINAL"
       },
-      "customHook" : { },
+      "customHook" : null,
       "retryLimit" : null,
       "batchSize" : null,
       "threadCount" : null,
-      "stepDefinitionName" : "default-mapping",
-      "stepDefinitionType" : "MAPPING",
-      "mappingStep" : true,
-      "customStep" : false,
-      "mappingName" : "CharacterFlow-CharacterMapping"
+      "stepDefinitionName" : "CharacterMap",
+      "stepDefinitionType" : "CUSTOM",
+      "modulePath" : "/custom-modules/custom/CharacterMap/main.sjs",
+      "mappingName" : null,
+      "mappingStep" : false,
+      "customStep" : true
     }
   }
 }

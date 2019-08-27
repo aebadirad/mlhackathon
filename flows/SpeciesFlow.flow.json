@@ -26,9 +26,9 @@
         "targetDatabase" : "data-hub-STAGING"
       },
       "customHook" : { },
-      "retryLimit" : null,
-      "batchSize" : null,
-      "threadCount" : null,
+      "retryLimit" : 0,
+      "batchSize" : 0,
+      "threadCount" : 0,
       "stepDefinitionName" : "default-ingestion",
       "stepDefinitionType" : "INGESTION",
       "fileLocations" : {
@@ -40,6 +40,30 @@
       "mappingName" : null,
       "mappingStep" : false,
       "customStep" : false
+    },
+    "2" : {
+      "name" : "SpeciesMap",
+      "description" : "",
+      "options" : {
+        "additionalCollections" : [ ],
+        "sourceQuery" : "cts.collectionQuery([\"Species\"])",
+        "targetEntity" : "",
+        "collections" : [ "SpeciesMap" ],
+        "sourceDatabase" : "data-hub-STAGING",
+        "sourceCollection" : "Species",
+        "outputFormat" : "json",
+        "targetDatabase" : "data-hub-FINAL"
+      },
+      "customHook" : null,
+      "retryLimit" : null,
+      "batchSize" : null,
+      "threadCount" : null,
+      "stepDefinitionName" : "SpeciesMap",
+      "stepDefinitionType" : "CUSTOM",
+      "modulePath" : "/custom-modules/custom/SpeciesMap/main.sjs",
+      "mappingName" : null,
+      "mappingStep" : false,
+      "customStep" : true
     }
   }
 }
