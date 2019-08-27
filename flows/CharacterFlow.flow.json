@@ -48,10 +48,10 @@
       "name" : "CharacterMap",
       "description" : "",
       "options" : {
-        "additionalCollections" : [ "characters" ],
+        "additionalCollections" : [ "characters", "character" ],
         "sourceQuery" : "cts.collectionQuery([\"character\"])",
         "targetEntity" : "",
-        "collections" : [ "CharacterMap", "characters" ],
+        "collections" : [ "CharacterMap", "characters", "character" ],
         "sourceDatabase" : "data-hub-STAGING",
         "sourceCollection" : "character",
         "outputFormat" : "json",

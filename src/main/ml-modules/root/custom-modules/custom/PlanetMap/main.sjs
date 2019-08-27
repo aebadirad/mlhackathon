@@ -19,41 +19,11 @@ const datahub = new DataHub();
 
 function main(content, options) {
 
-  //grab the doc id/uri
-  let id = content.uri;
-
   //here we can grab and manipulate the context metadata attached to the document
   let context = content.context;
 
   //let's set our output format, so we know what we're exporting
   let outputFormat = options.outputFormat ? options.outputFormat.toLowerCase() : datahub.flow.consts.DEFAULT_FORMAT;
-
-  //here we check to make sure we're not trying to push out a binary or text document, just xml or json
-  if (outputFormat !== datahub.flow.consts.JSON && outputFormat !== datahub.flow.consts.XML) {
-    datahub.debug.log({
-      message: 'The output format of type ' + outputFormat + ' is invalid. Valid options are ' + datahub.flow.consts.XML + ' or ' + datahub.flow.consts.JSON + '.',
-      type: 'error'
-    });
-    throw Error('The output format of type ' + outputFormat + ' is invalid. Valid options are ' + datahub.flow.consts.XML + ' or ' + datahub.flow.consts.JSON + '.');
-  }
-
-  /*
-  This scaffolding assumes we obtained the document from the database. If you are inserting information, you will
-  have to map data from the content.value appropriately and create an instance (object), headers (object), and triples
-  (array) instead of using the flowUtils functions to grab them from a document that was pulled from MarkLogic.
-  Also you do not have to check if the document exists as in the code below.
-
-  Example code for using data that was sent to MarkLogic server for the document
-  let instance = content.value;
-  let triples = [];
-  let headers = {};
-   */
-
-  //Here we check to make sure it's still there before operating on it
-  if (!fn.docAvailable(id)) {
-    datahub.debug.log({message: 'The document with the uri: ' + id + ' could not be found.', type: 'error'});
-    throw Error('The document with the uri: ' + id + ' could not be found.')
-  }
 
   //grab the 'doc' from the content value space
   let doc = content.value;
@@ -64,7 +34,7 @@ function main(content, options) {
   }
 
   //get our instance, default shape of envelope is envelope/instance, else it'll return an empty object/array
-  let instance = datahub.flow.flowUtils.getInstance(doc) || {};
+  let source = datahub.flow.flowUtils.getInstance(doc).toObject() || {};
 
   // get triples, return null if empty or cannot be found
   let triples = datahub.flow.flowUtils.getTriples(doc) || [];
@@ -72,28 +42,69 @@ function main(content, options) {
   //gets headers, return null if cannot be found
   let headers = datahub.flow.flowUtils.getHeaders(doc) || {};
 
-  //If you want to set attachments, uncomment here
-  // instance['$attachments'] = doc;
-
 
   //insert code to manipulate the instance, triples, headers, uri, context metadata, etc.
+
+  // the original source documents
+  let attachments = source;
+  let id = source.id ? xs.integer(source.id) : null;
+  let name = source.name ? xs.string(source.name) : null;
+  let climate = source.climate ? xs.string(source.climate) : null;
+  let population = source.population ? xs.string(source.population) : null;
+  let rotation_period = source.rotation_period ? xs.string(source.rotation_period) : null;
+  let orbital_period = source.rotation_period ? xs.string(source.orbital_period) : null;
+  let diameter = source.diameter ? xs.string(source.diameter) : null;
+  let terrain = source.terrain ? xs.string(source.terrain) : null;
+
+  let residents = [];
+  if (source.residents && source.residents.length > 0) {
+    source.residents.map(function(s) {
+      let residentId = s.replace(/[^\d]+/g, '');
+      residents.push(makeReferenceObject('Character', 'http://marklogic.com/mlworld/Character-0.0.1/Character/' + residentId));
+    });
+  }
+
+  // return the instance object
+  let instance = {
+    '$attachments': attachments,
+    '$type': 'Planets',
+    '$version': '0.0.1',
+    'id': id,
+    'name': name,
+    'climate': climate,
+    'population': population,
+    'rotation_period' : rotation_period,
+    'orbital_period' : orbital_period,
+    'diameter' : diameter,
+    'terrain': terrain,
+    'residents': residents
+  }
 
 
   //form our envelope here now, specifying our output format
   let envelope = datahub.flow.flowUtils.makeEnvelope(instance, headers, triples, outputFormat);
 
+  let newContent = {};
   //assign our envelope value
-  content.value = envelope;
+  newContent.value = envelope;
 
   //assign the uri we want, in this case the same
-  content.uri = id;
+  newContent.uri = content.uri;
 
   //assign the context we want
-  content.context = context;
+  newContent.context = content.context;
 
   //now let's return out our content to be written
-  return content;
+  return newContent;
 }
+
+function makeReferenceObject(type, ref) {
+  return {
+    '$type': type,
+    '$ref': ref
+  };
+}
+
 
 module.exports = {
   main: main

@@ -45,7 +45,7 @@
       "name" : "PlanetMap",
       "description" : "",
       "options" : {
-        "additionalCollections" : [ "planet" ],
+        "additionalCollections" : [ "planet", "planets" ],
         "sourceQuery" : "cts.collectionQuery([\"Planets\"])",
         "targetEntity" : "",
         "collections" : [ "PlanetMap", "planet" ],

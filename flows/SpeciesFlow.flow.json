@@ -48,7 +48,7 @@
         "additionalCollections" : [ ],
         "sourceQuery" : "cts.collectionQuery([\"Species\"])",
         "targetEntity" : "",
-        "collections" : [ "SpeciesMap" ],
+        "collections" : [ "SpeciesMap", "species"],
         "sourceDatabase" : "data-hub-STAGING",
         "sourceCollection" : "Species",
         "outputFormat" : "json",
