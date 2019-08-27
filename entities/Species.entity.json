@@ -32,8 +32,7 @@
           "collation" : "http://marklogic.com/collation/codepoint"
         },
         "homeworld" : {
-          "$ref" : "#/definitions/Planets",
-          "collation" : "http://marklogic.com/collation/codepoint"
+          "$ref" : "#/definitions/Planets"
         }
       }
     }

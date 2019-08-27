@@ -2,3 +2,4 @@ node_modules/
 mlw2018datahubtalk.iml
 .idea/
 .gradle/
+.tmp/

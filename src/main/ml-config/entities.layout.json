@@ -1,0 +1,30 @@
+{
+  "Character" : {
+    "x" : 0,
+    "y" : 0,
+    "width" : 276,
+    "height" : 385,
+    "vertices" : { }
+  },
+  "Planets" : {
+    "x" : 0,
+    "y" : 0,
+    "width" : 303,
+    "height" : 321,
+    "vertices" : { }
+  },
+  "Species" : {
+    "x" : 630,
+    "y" : 412,
+    "width" : 293,
+    "height" : 225,
+    "vertices" : { }
+  },
+  "Starships" : {
+    "x" : 196,
+    "y" : 533,
+    "width" : 266,
+    "height" : 257,
+    "vertices" : { }
+  }
+}
