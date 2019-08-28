@@ -86,7 +86,11 @@ export class StoryComponent implements OnInit {
   }
 
   public getSafeContent(): SafeHtml {
-    window.art.innerHTML = this.article;
+    let repl = this.article;
+    repl = repl.replace(/character/g, 'character style="background-color: #b7dff8; cursor: pointer;" ');
+    repl = repl.replace(/planet/g, 'planet style="background-color: #adddcf; cursor: pointer;"');
+    repl = repl.replace(/starship/g, 'starship style="background-color: #f0e0a2; cursor: pointer;"');
+    window.art.innerHTML = repl;
     return "";
   }
 
