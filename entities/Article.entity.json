@@ -1,0 +1,26 @@
+{
+  "info" : {
+    "title" : "Article",
+    "version" : "0.0.1",
+    "baseUri" : "http://marklogic.com/mlworld"
+  },
+  "definitions" : {
+    "Article" : {
+      "required" : [ ],
+      "pii" : [ ],
+      "elementRangeIndex" : [ ],
+      "rangeIndex" : [ ],
+      "wordLexicon" : [ ],
+      "properties" : {
+        "name" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "text" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        }
+      }
+    }
+  }
+}

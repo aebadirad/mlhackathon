@@ -75,7 +75,7 @@ graph uri: http://marklogic.com/mlworld/Article-0.0.1</tde:description>
 						<tde:val>$RDF_LABEL</tde:val>
 					</tde:predicate>
 					<tde:object>
-						<tde:val>fn:base-uri(.)</tde:val>
+						<tde:val>xs:string(./name)</tde:val>
 					</tde:object>
 				</tde:triple>
       </tde:triples>

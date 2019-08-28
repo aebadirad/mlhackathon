@@ -1,0 +1,21 @@
+{
+  "path-namespace" : [ {
+    "prefix" : "es",
+    "namespace-uri" : "http://marklogic.com/entity-services"
+  } ],
+  "range-element-index" : [ {
+    "invalid-values" : "reject",
+    "localname" : "id",
+    "namespace-uri" : null,
+    "range-value-positions" : false,
+    "scalar-type" : "decimal"
+  }, {
+    "invalid-values" : "reject",
+    "localname" : "name",
+    "namespace-uri" : null,
+    "range-value-positions" : false,
+    "scalar-type" : "string",
+    "collation" : "http://marklogic.com/collation/codepoint"
+  } ],
+  "database-name" : "%%mlStagingDbName%%"
+}

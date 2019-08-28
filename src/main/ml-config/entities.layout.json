@@ -26,5 +26,12 @@
     "width" : 266,
     "height" : 257,
     "vertices" : { }
+  },
+  "Article" : {
+    "x" : 829,
+    "y" : 662,
+    "width" : 350,
+    "height" : 144,
+    "vertices" : { }
   }
 }
