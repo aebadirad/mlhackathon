@@ -10,6 +10,7 @@ import { AppService } from "../app.service";
 export class StoryComponent implements OnInit {
   @Input() uri: string;
   doc: any;
+  article: any;
   lukeDoc: any;
   docs = {};
   urisToLoad = [

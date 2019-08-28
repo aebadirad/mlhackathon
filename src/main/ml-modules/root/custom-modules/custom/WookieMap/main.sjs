@@ -16,6 +16,13 @@
 
 const DataHub = require("/data-hub/5/datahub.sjs");
 const datahub = new DataHub();
+const entity = require('/MarkLogic/entity');
+const mapping = {
+  '' : fn.QName('http://marklogic.com/entity', 'entity:entity'),
+  'character': fn.QName('http://marklogic.com/entity', 'character'),
+  starship: fn.QName('http://marklogic.com/entity', 'starship'),
+  planet: fn.QName('http://marklogic.com/entity', 'planet')
+};
 
 function main(content, options) {
 
@@ -31,9 +38,15 @@ function main(content, options) {
   //grab the 'doc' from the content value space
   let doc = content.value;
 
+
+  let dictionary = cts.entityDictionary([
+    cts.entity("1", "Luke Skywalker", "Luke Skywalker", "character"),
+    cts.entity("1", "Alderaan", "Alderaan", "planet")
+  ])
+
   //get our instance, default shape of envelope is envelope/instance, else it'll return an empty object/array
   let instance = {
-    "Article" : doc
+    "Article" : entity.enrich(doc, dictionary, "full", mapping)
   }
 
   // get triples, return null if empty or cannot be found

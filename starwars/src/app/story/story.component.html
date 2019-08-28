@@ -1,4 +1,4 @@
-<div class="header" *ngIf="!doc">
+<div class="header" *ngIf="!doc && !article">
   <form [formGroup]="searchForm" (ngSubmit)="search()">
     <div style="text-align:center">
       <input formControlName="q" type="text">
@@ -7,7 +7,7 @@
   </form>
 </div>
 
-<div class="story-container" *ngIf="doc">
+<div class="story-container" *ngIf="doc && !article">
   <div *ngIf="doc.type == 'character'">
     <p>{{doc.name}} is a {{doc.gender}} {{doc.species}} <span *ngIf="descSet()">from {{doc.homeworld}}</span>
     <span *ngIf="doc.age"> who is about {{doc.age}} years old</span><span
@@ -65,12 +65,12 @@
   </div>
 </div>
 
-<div class="legend" *ngIf="!doc">
+<div class="legend" *ngIf="!doc && article">
   Legend: <span class="character-legend">Characters</span> <span class="planet-legend">Places</span> <span
   class="starship-legend">Starships</span>
 </div>
 
-<div class="full-story-container" *ngIf="!doc">
+<div class="full-story-container" *ngIf="!doc && article">
   <p><i (click)="refresh()" class="fab fa-rebel"></i>
   {{article}}
   <p>The <span class="{{this.c('deathstar')}}" *ngIf="deathstar; else empire;"><a routerLink="/details" [queryParams]="{uri: this.u('deathstar')}" target="_new">{{deathstar}}</a></span> prepares to destroy the <span *ngIf="descSet(); else rebel">Rebel</span> base
@@ -82,4 +82,18 @@
     a hero.</p>
 
   <p>One award ceremony later and its happy endings all around.</p>
+</div>
+
+<div class="results-container" *ngIf="!doc && !article">
+  <div *ngIf="!results || !results.length">
+    <h2>No Results Found</h2>
+  </div>
+  <div class="card" *ngFor="let result of results">
+    <div class="title">
+      <a routerLink="/details" [queryParams]="{uri: result.uri}">{{result.name}}</a>
+    </div>
+    <div class="snippet">
+      {{result.snippet}}
+    </div>
+  </div>
 </div>
