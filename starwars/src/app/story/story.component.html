@@ -87,7 +87,9 @@
 <div class="full-story-container" *ngIf="article">
   <b>{{articleTitle}}</b>
   <p><i (click)="refresh()" class="fab fa-rebel"></i>
-    <span [innerHTML]="article"></span>
+    <div [innerHTML]="getSafeContent()"></div>
+    <div id="art">
+    </div>
 </div>
 
 

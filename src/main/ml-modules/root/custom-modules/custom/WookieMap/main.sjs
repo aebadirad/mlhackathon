@@ -41,7 +41,11 @@ function main(content, options) {
 
   let dictionary = cts.entityDictionary([
     cts.entity("1", "Luke Skywalker", "Luke Skywalker", "character"),
-    cts.entity("2", "Alderaan", "Alderaan", "planet")
+    cts.entity("4", "Darth Vader", "Vader", "character"),
+    cts.entity("5", "Leia Organa", "Leia", "character"),
+    cts.entity("10", "Millennium Falcon", "Falcon", "starship"),
+    cts.entity("2", "Alderaan", "Alderaan", "planet"),
+    cts.entity("1", "Tatooine", "Tatooine", "planet")
   ])
 
   //get our instance, default shape of envelope is envelope/instance, else it'll return an empty object/array

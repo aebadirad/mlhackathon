@@ -1,10 +1,11 @@
-import { Component, Input, OnInit, OnChanges } from "@angular/core";
+import {Component, Input, OnInit, OnChanges, Sanitizer, SecurityContext} from "@angular/core";
 import { FormGroup, FormControl } from "@angular/forms";
 import { AppService } from "../app.service";
 
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 import { map, switchMap } from 'rxjs/operators';
+import {DomSanitizer, SafeHtml} from "@angular/platform-browser";
 
 @Component({
   selector: "app-story",
@@ -36,7 +37,7 @@ export class StoryComponent implements OnInit {
     "/planets/2.json",
     "/planets/3.json"
   ];
-  constructor(private app: AppService, private http: HttpClient) {}
+  constructor(private app: AppService, private http: HttpClient, private sanitizer: Sanitizer) {}
   results: any;
   article: any;
   articleTitle: any;
@@ -69,6 +70,7 @@ export class StoryComponent implements OnInit {
 
   getArticle(uri: string) {
     const parser = new DOMParser();
+    var oSerializer = new XMLSerializer();
     let xmlDoc;
     var self = this;
     this.article = {};
@@ -76,11 +78,17 @@ export class StoryComponent implements OnInit {
 
         xmlDoc = parser.parseFromString(doc, "text/xml");
         self.articleTitle = xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
-        self.article = xmlDoc.getElementsByTagName("text")[0].childNodes[0].nodeValue;
+        let art = xmlDoc.getElementsByTagName("text")[0];
+        self.article = oSerializer.serializeToString(art);
+       //self.article = doc;
       }
     );
   }
 
+  public getSafeContent(): SafeHtml {
+    window.art.innerHTML = this.article;
+    return "";
+  }
 
   getLukeDoc(){
     const uri = this.getUri('luke');
