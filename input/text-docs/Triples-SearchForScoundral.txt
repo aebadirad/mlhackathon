@@ -1,0 +1,1096 @@
+{
+          "subject": "Skywalker",
+          "subjectSpan": [7, 8],
+          "relation": "grew",
+          "relationSpan": [8, 9],
+          "object": "powerful",
+          "objectSpan": [10, 11]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [7, 8],
+          "relation": "grew",
+          "relationSpan": [8, 9],
+          "object": "more powerful",
+          "objectSpan": [9, 11]
+        },
+        {
+          "subject": "his exploits",
+          "subjectSpan": [16, 18],
+          "relation": "gained",
+          "relationSpan": [21, 22],
+          "object": "profile",
+          "objectSpan": [24, 25]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [7, 8],
+          "relation": "Search Over",
+          "relationSpan": [0, 1],
+          "object": "time",
+          "objectSpan": [5, 6]
+        },
+        {
+          "subject": "his exploits",
+          "subjectSpan": [16, 18],
+          "relation": "gained",
+          "relationSpan": [21, 22],
+          "object": "higher profile",
+          "objectSpan": [23, 25]
+        },
+        {
+          "subject": "his exploits",
+          "subjectSpan": [16, 18],
+          "relation": "is in",
+          "relationSpan": [18, 19],
+          "object": "Alliance",
+          "objectSpan": [20, 21]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [7, 8],
+          "relation": "grew in",
+          "relationSpan": [8, 9],
+          "object": "Force",
+          "objectSpan": [13, 14]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [7, 8],
+          "relation": "Search for",
+          "relationSpan": [0, 2],
+          "object": "scoundrel",
+          "objectSpan": [3, 4]
+        }
+ {
+          "subject": "Boba Fett",
+          "subjectSpan": [4, 6],
+          "relation": "was lurking near",
+          "relationSpan": [17, 20],
+          "object": "Gall",
+          "objectSpan": [20, 21]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "received",
+          "relationSpan": [1, 2],
+          "object": "word",
+          "objectSpan": [2, 3]
+        }
+ {
+          "subject": "Rogues",
+          "subjectSpan": [3, 4],
+          "relation": "cover in",
+          "relationSpan": [8, 9],
+          "object": "Millennium Falcon",
+          "objectSpan": [15, 17]
+        },
+        {
+          "subject": "cover",
+          "subjectSpan": [8, 9],
+          "relation": "is in",
+          "relationSpan": [13, 14],
+          "object": "Millennium Falcon",
+          "objectSpan": [15, 17]
+        },
+        {
+          "subject": "Rogues",
+          "subjectSpan": [3, 4],
+          "relation": "cover for",
+          "relationSpan": [8, 10],
+          "object": "Organa",
+          "objectSpan": [10, 11]
+        }
+{
+          "subject": "attack",
+          "subjectSpan": [3, 4],
+          "relation": "was",
+          "relationSpan": [4, 5],
+          "object": "However unsuccessful",
+          "objectSpan": [0, 6]
+        },
+        {
+          "subject": "attack",
+          "subjectSpan": [3, 4],
+          "relation": "was unsuccessful as",
+          "relationSpan": [4, 7],
+          "object": "Dash Rendar",
+          "objectSpan": [10, 12]
+        },
+        {
+          "subject": "attack",
+          "subjectSpan": [3, 4],
+          "relation": "However was unsuccessful as",
+          "relationSpan": [4, 7],
+          "object": "Dash Rendar",
+          "objectSpan": [10, 12]
+        },
+        {
+          "subject": "attack",
+          "subjectSpan": [3, 4],
+          "relation": "was unsuccessful as",
+          "relationSpan": [4, 7],
+          "object": "their guide",
+          "objectSpan": [7, 9]
+        },
+        {
+          "subject": "their",
+          "subjectSpan": [7, 8],
+          "relation": "guide",
+          "relationSpan": [8, 9],
+          "object": "Dash Rendar",
+          "objectSpan": [10, 12]
+        },
+        {
+          "subject": "attack",
+          "subjectSpan": [3, 4],
+          "relation": "However was unsuccessful as",
+          "relationSpan": [4, 7],
+          "object": "their guide",
+          "objectSpan": [7, 9]
+        },
+        {
+          "subject": "attack",
+          "subjectSpan": [3, 4],
+          "relation": "was",
+          "relationSpan": [4, 5],
+          "object": "unsuccessful",
+          "objectSpan": [5, 6]
+        }
+ {
+          "subject": "Wes Janson sastromech",
+          "subjectSpan": [5, 9],
+          "relation": "took over",
+          "relationSpan": [11, 13],
+          "object": "his fighter",
+          "objectSpan": [13, 15]
+        },
+        {
+          "subject": "Wes Janson sastromech",
+          "subjectSpan": [5, 9],
+          "relation": "targeted",
+          "relationSpan": [17, 18],
+          "object": "Skywalker 's craft",
+          "objectSpan": [18, 21]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [18, 19],
+          "relation": "has",
+          "relationSpan": [19, 20],
+          "object": "craft",
+          "objectSpan": [20, 21]
+        },
+        {
+          "subject": "Wes Janson sastromech",
+          "subjectSpan": [5, 9],
+          "relation": "malfunctioned On",
+          "relationSpan": [9, 10],
+          "object": "return trip",
+          "objectSpan": [2, 4]
+        }
+{
+          "subject": "He",
+          "subjectSpan": [0, 1],
+          "relation": "disable",
+          "relationSpan": [4, 5],
+          "object": "it",
+          "objectSpan": [5, 6]
+        },
+        {
+          "subject": "He",
+          "subjectSpan": [0, 1],
+          "relation": "was",
+          "relationSpan": [1, 2],
+          "object": "able",
+          "objectSpan": [2, 3]
+        }
+{
+          "subject": "droid",
+          "subjectSpan": [11, 12],
+          "relation": "been",
+          "relationSpan": [13, 14],
+          "object": "sabotaged",
+          "objectSpan": [14, 15]
+        },
+        {
+          "subject": "droid",
+          "subjectSpan": [11, 12],
+          "relation": "been sabotaged by",
+          "relationSpan": [13, 16],
+          "object": "mechanic",
+          "objectSpan": [17, 18]
+        },
+        {
+          "subject": "it",
+          "subjectSpan": [6, 7],
+          "relation": "was",
+          "relationSpan": [7, 8],
+          "object": "discovered",
+          "objectSpan": [8, 9]
+        },
+        {
+          "subject": "it",
+          "subjectSpan": [6, 7],
+          "relation": "was discovered",
+          "relationSpan": [7, 9],
+          "object": "returning to their base",
+          "objectSpan": [1, 5]
+        },
+        {
+          "subject": "it",
+          "subjectSpan": [6, 7],
+          "relation": "returning to",
+          "relationSpan": [1, 3],
+          "object": "their base",
+          "objectSpan": [3, 5]
+        },
+        {
+          "subject": "it",
+          "subjectSpan": [6, 7],
+          "relation": "was discovered",
+          "relationSpan": [7, 9],
+          "object": "returning",
+          "objectSpan": [1, 2]
+        }
+{
+          "subject": "Ben Kenobi",
+          "subjectSpan": [7, 9],
+          "relation": "outside",
+          "relationSpan": [6, 7],
+          "object": "hut Returning to Tatooine",
+          "objectSpan": [10, 14]
+        },
+        {
+          "subject": "Luke training",
+          "subjectSpan": [0, 2],
+          "relation": "is with",
+          "relationSpan": [2, 3],
+          "object": "his new lightsaber outside Ben Kenobi 's hut Returning to Tatooine",
+          "objectSpan": [3, 14]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [28, 29],
+          "relation": "constructed lightsaber with",
+          "relationSpan": [32, 34],
+          "object": "help of journal",
+          "objectSpan": [35, 39]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [28, 29],
+          "relation": "constructed",
+          "relationSpan": [29, 30],
+          "object": "lightsaber",
+          "objectSpan": [32, 33]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [28, 29],
+          "relation": "constructed",
+          "relationSpan": [29, 30],
+          "object": "new lightsaber",
+          "objectSpan": [31, 33]
+        },
+        {
+          "subject": "Luke training",
+          "subjectSpan": [0, 2],
+          "relation": "spent time at",
+          "relationSpan": [16, 20],
+          "object": "residence",
+          "objectSpan": [22, 23]
+        },
+        {
+          "subject": "Luke training",
+          "subjectSpan": [0, 2],
+          "relation": "spent time at",
+          "relationSpan": [16, 20],
+          "object": "residence of Obi-Wan Kenobi",
+          "objectSpan": [22, 26]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [28, 29],
+          "relation": "constructed lightsaber with",
+          "relationSpan": [32, 34],
+          "object": "help",
+          "objectSpan": [35, 36]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [28, 29],
+          "relation": "constructed lightsaber with",
+          "relationSpan": [32, 34],
+          "object": "help of journal prepared by Kenobi",
+          "objectSpan": [35, 42]
+        },
+        {
+          "subject": "Luke training",
+          "subjectSpan": [0, 2],
+          "relation": "spent",
+          "relationSpan": [16, 17],
+          "object": "time",
+          "objectSpan": [18, 19]
+        },
+        {
+          "subject": "Luke training",
+          "subjectSpan": [0, 2],
+          "relation": "spent time at",
+          "relationSpan": [16, 20],
+          "object": "old residence",
+          "objectSpan": [21, 23]
+        },
+        {
+          "subject": "his new lightsaber",
+          "subjectSpan": [3, 6],
+          "relation": "with training is",
+          "relationSpan": [2, 3],
+          "object": "Luke",
+          "objectSpan": [15, 16]
+        },
+        {
+          "subject": "Luke training",
+          "subjectSpan": [0, 2],
+          "relation": "spent time at",
+          "relationSpan": [16, 20],
+          "object": "old residence of Obi-Wan Kenobi",
+          "objectSpan": [21, 26]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [28, 29],
+          "relation": "constructed lightsaber with",
+          "relationSpan": [32, 34],
+          "object": "help of journal prepared",
+          "objectSpan": [35, 40]
+        }
+{
+          "subject": "Skywalker",
+          "subjectSpan": [27, 28],
+          "relation": "encountered message droid with",
+          "relationSpan": [28, 32],
+          "object": "aid",
+          "objectSpan": [12, 13]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [27, 28],
+          "relation": "encountered",
+          "relationSpan": [28, 29],
+          "object": "message droid",
+          "objectSpan": [30, 32]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [27, 28],
+          "relation": "encountered message droid with",
+          "relationSpan": [28, 32],
+          "object": "aid of Dash Rendar",
+          "objectSpan": [12, 16]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [27, 28],
+          "relation": "fending off",
+          "relationSpan": [1, 3],
+          "object": "attack",
+          "objectSpan": [4, 5]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [27, 28],
+          "relation": "fending off",
+          "relationSpan": [1, 3],
+          "object": "attack by swoop gang",
+          "objectSpan": [4, 9]
+        }
+{
+          "subject": "Skywalker",
+          "subjectSpan": [2, 3],
+          "relation": "was",
+          "relationSpan": [3, 4],
+          "object": "However able",
+          "objectSpan": [0, 5]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [2, 3],
+          "relation": "was",
+          "relationSpan": [3, 4],
+          "object": "able",
+          "objectSpan": [4, 5]
+        }
+ {
+          "subject": "message",
+          "subjectSpan": [1, 2],
+          "relation": "was sent by",
+          "relationSpan": [2, 5],
+          "object": "Koth Melan",
+          "objectSpan": [5, 7]
+        },
+        {
+          "subject": "message",
+          "subjectSpan": [1, 2],
+          "relation": "was",
+          "relationSpan": [2, 3],
+          "object": "sent",
+          "objectSpan": [3, 4]
+        },
+        {
+          "subject": "message",
+          "subjectSpan": [1, 2],
+          "relation": "was sent by",
+          "relationSpan": [2, 5],
+          "object": "Bothan spymaster",
+          "objectSpan": [9, 11]
+        }
+ {
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "traveled",
+          "relationSpan": [1, 2],
+          "object": "meet",
+          "objectSpan": [3, 4]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "meet along with",
+          "relationSpan": [6, 8],
+          "object": "Rendar",
+          "objectSpan": [8, 9]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "traveled",
+          "relationSpan": [1, 2],
+          "object": "meet with Melan",
+          "objectSpan": [3, 6]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "meet with",
+          "relationSpan": [3, 5],
+          "object": "Melan",
+          "objectSpan": [5, 6]
+        }
+ {
+          "subject": "Luke",
+          "subjectSpan": [2, 3],
+          "relation": "has",
+          "relationSpan": [3, 4],
+          "object": "help attacking",
+          "objectSpan": [4, 7]
+        }
+{
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "led",
+          "relationSpan": [9, 10],
+          "object": "attack",
+          "objectSpan": [11, 12]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "trained",
+          "relationSpan": [1, 2],
+          "object": "squadron",
+          "objectSpan": [3, 4]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "trained",
+          "relationSpan": [1, 2],
+          "object": "squadron of Bothan pilots",
+          "objectSpan": [3, 8]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "trained",
+          "relationSpan": [1, 2],
+          "object": "squadron of Bothan Y-wing pilots",
+          "objectSpan": [3, 8]
+        }
+ {
+          "subject": "information",
+          "subjectSpan": [7, 8],
+          "relation": "was",
+          "relationSpan": [8, 9],
+          "object": "retrieved",
+          "objectSpan": [9, 10]
+        },
+        {
+          "subject": "they",
+          "subjectSpan": [1, 2],
+          "relation": "suffered",
+          "relationSpan": [2, 3],
+          "object": "losses",
+          "objectSpan": [4, 5]
+        },
+        {
+          "subject": "Rendar",
+          "subjectSpan": [12, 13],
+          "relation": "left",
+          "relationSpan": [14, 15],
+          "object": "failing",
+          "objectSpan": [16, 17]
+        },
+        {
+          "subject": "they",
+          "subjectSpan": [1, 2],
+          "relation": "suffered",
+          "relationSpan": [2, 3],
+          "object": "heavy losses",
+          "objectSpan": [3, 5]
+        },
+        {
+          "subject": "Rendar",
+          "subjectSpan": [12, 13],
+          "relation": "again left",
+          "relationSpan": [13, 15],
+          "object": "failing",
+          "objectSpan": [16, 17]
+        }
+ {
+          "subject": "they",
+          "subjectSpan": [9, 10],
+          "relation": "However fell",
+          "relationSpan": [0, 1],
+          "object": "returning",
+          "objectSpan": [3, 4]
+        },
+        {
+          "subject": "they",
+          "subjectSpan": [9, 10],
+          "relation": "fell under",
+          "relationSpan": [10, 12],
+          "object": "attack",
+          "objectSpan": [12, 13]
+        },
+        {
+          "subject": "they",
+          "subjectSpan": [9, 10],
+          "relation": "fell",
+          "relationSpan": [10, 11],
+          "object": "returning to Bothan base",
+          "objectSpan": [3, 8]
+        },
+        {
+          "subject": "they",
+          "subjectSpan": [9, 10],
+          "relation": "However fell under",
+          "relationSpan": [10, 12],
+          "object": "attack",
+          "objectSpan": [12, 13]
+        },
+        {
+          "subject": "they",
+          "subjectSpan": [9, 10],
+          "relation": "returning to",
+          "relationSpan": [3, 5],
+          "object": "Bothan base",
+          "objectSpan": [6, 8]
+        },
+        {
+          "subject": "they",
+          "subjectSpan": [9, 10],
+          "relation": "However fell",
+          "relationSpan": [0, 1],
+          "object": "returning to Bothan base",
+          "objectSpan": [3, 8]
+        },
+        {
+          "subject": "they",
+          "subjectSpan": [9, 10],
+          "relation": "fell",
+          "relationSpan": [10, 11],
+          "object": "returning",
+          "objectSpan": [3, 4]
+        }
+{
+          "subject": "Skywalker",
+          "subjectSpan": [9, 10],
+          "relation": "was temporarily captured",
+          "relationSpan": [10, 13],
+          "object": "safely moved",
+          "objectSpan": [4, 6]
+        },
+        {
+          "subject": "data",
+          "subjectSpan": [2, 3],
+          "relation": "was",
+          "relationSpan": [3, 4],
+          "object": "safely moved",
+          "objectSpan": [4, 6]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [9, 10],
+          "relation": "was",
+          "relationSpan": [10, 11],
+          "object": "captured",
+          "objectSpan": [12, 13]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [9, 10],
+          "relation": "was temporarily captured by",
+          "relationSpan": [10, 14],
+          "object": "Barabel bounty hunters",
+          "objectSpan": [14, 17]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [9, 10],
+          "relation": "was",
+          "relationSpan": [10, 11],
+          "object": "temporarily captured",
+          "objectSpan": [11, 13]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [9, 10],
+          "relation": "was captured",
+          "relationSpan": [10, 13],
+          "object": "moved for translation",
+          "objectSpan": [5, 8]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [9, 10],
+          "relation": "was captured",
+          "relationSpan": [10, 13],
+          "object": "safely moved",
+          "objectSpan": [4, 6]
+        },
+        {
+          "subject": "data",
+          "subjectSpan": [2, 3],
+          "relation": "was",
+          "relationSpan": [3, 4],
+          "object": "moved",
+          "objectSpan": [5, 6]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [9, 10],
+          "relation": "was captured",
+          "relationSpan": [10, 13],
+          "object": "moved",
+          "objectSpan": [5, 6]
+        },
+        {
+          "subject": "data",
+          "subjectSpan": [2, 3],
+          "relation": "was safely moved for",
+          "relationSpan": [3, 7],
+          "object": "translation",
+          "objectSpan": [7, 8]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [9, 10],
+          "relation": "was captured",
+          "relationSpan": [10, 13],
+          "object": "safely moved for translation",
+          "objectSpan": [4, 8]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [9, 10],
+          "relation": "was temporarily captured",
+          "relationSpan": [10, 13],
+          "object": "moved for translation",
+          "objectSpan": [5, 8]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [9, 10],
+          "relation": "was temporarily captured",
+          "relationSpan": [10, 13],
+          "object": "safely moved for translation",
+          "objectSpan": [4, 8]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [9, 10],
+          "relation": "was captured by",
+          "relationSpan": [10, 14],
+          "object": "Barabel bounty hunters",
+          "objectSpan": [14, 17]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [9, 10],
+          "relation": "was temporarily captured",
+          "relationSpan": [10, 13],
+          "object": "moved",
+          "objectSpan": [5, 6]
+        },
+        {
+          "subject": "data",
+          "subjectSpan": [2, 3],
+          "relation": "was moved for",
+          "relationSpan": [3, 7],
+          "object": "translation",
+          "objectSpan": [7, 8]
+        }
+{
+          "subject": "He",
+          "subjectSpan": [0, 1],
+          "relation": "managed",
+          "relationSpan": [1, 2],
+          "object": "escape",
+          "objectSpan": [3, 4]
+        },
+        {
+          "subject": "power struggle",
+          "subjectSpan": [48, 50],
+          "relation": "is with",
+          "relationSpan": [50, 51],
+          "object": "Dark Lord",
+          "objectSpan": [52, 54]
+        },
+        {
+          "subject": "He",
+          "subjectSpan": [0, 1],
+          "relation": "was",
+          "relationSpan": [8, 9],
+          "object": "contacted",
+          "objectSpan": [9, 10]
+        },
+        {
+          "subject": "He",
+          "subjectSpan": [0, 1],
+          "relation": "was contacted by",
+          "relationSpan": [8, 11],
+          "object": "Chewbacca",
+          "objectSpan": [11, 12]
+        }
+{
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "smuggled",
+          "relationSpan": [8, 9],
+          "object": "them",
+          "objectSpan": [9, 10]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "met up with",
+          "relationSpan": [1, 4],
+          "object": "Calrissian",
+          "objectSpan": [4, 5]
+        }
+ {
+          "subject": "Skywalker",
+          "subjectSpan": [8, 9],
+          "relation": "infiltrate",
+          "relationSpan": [12, 13],
+          "object": "Xizor 's palace",
+          "objectSpan": [13, 16]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [8, 9],
+          "relation": "joining more",
+          "relationSpan": [1, 2],
+          "object": "forces",
+          "objectSpan": [2, 3]
+        },
+        {
+          "subject": "Xizor",
+          "subjectSpan": [13, 14],
+          "relation": "has",
+          "relationSpan": [14, 15],
+          "object": "palace",
+          "objectSpan": [15, 16]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [8, 9],
+          "relation": "joining",
+          "relationSpan": [1, 2],
+          "object": "forces",
+          "objectSpan": [2, 3]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [8, 9],
+          "relation": "was",
+          "relationSpan": [9, 10],
+          "object": "able",
+          "objectSpan": [10, 11]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [8, 9],
+          "relation": "joining once more",
+          "relationSpan": [1, 5],
+          "object": "forces",
+          "objectSpan": [2, 3]
+        }
+{
+          "subject": "They",
+          "subjectSpan": [0, 1],
+          "relation": "were intercepted by",
+          "relationSpan": [8, 11],
+          "object": "numerous guards",
+          "objectSpan": [11, 13]
+        },
+        {
+          "subject": "They",
+          "subjectSpan": [0, 1],
+          "relation": "rescue",
+          "relationSpan": [4, 5],
+          "object": "Organa",
+          "objectSpan": [5, 6]
+        }
+{
+          "subject": "Calrissian",
+          "subjectSpan": [4, 5],
+          "relation": "dooming",
+          "relationSpan": [20, 21],
+          "object": "building",
+          "objectSpan": [22, 23]
+        },
+        {
+          "subject": "Calrissian",
+          "subjectSpan": [4, 5],
+          "relation": "activated timer on",
+          "relationSpan": [5, 9],
+          "object": "thermal detonator",
+          "objectSpan": [10, 12]
+        },
+        {
+          "subject": "Calrissian",
+          "subjectSpan": [4, 5],
+          "relation": "activated timer At",
+          "relationSpan": [5, 8],
+          "object": "point",
+          "objectSpan": [2, 3]
+        },
+        {
+          "subject": "Calrissian",
+          "subjectSpan": [4, 5],
+          "relation": "activated",
+          "relationSpan": [5, 6],
+          "object": "timer",
+          "objectSpan": [7, 8]
+        },
+        {
+          "subject": "Calrissian",
+          "subjectSpan": [4, 5],
+          "relation": "activated timer on",
+          "relationSpan": [5, 9],
+          "object": "detonator",
+          "objectSpan": [11, 12]
+        },
+        {
+          "subject": "Calrissian",
+          "subjectSpan": [4, 5],
+          "relation": "dropped",
+          "relationSpan": [13, 14],
+          "object": "it",
+          "objectSpan": [14, 15]
+        }
+{
+          "subject": "rescue party",
+          "subjectSpan": [8, 10],
+          "relation": "meet",
+          "relationSpan": [11, 12],
+          "object": "Millennium Falcon",
+          "objectSpan": [13, 15]
+        },
+        {
+          "subject": "guards",
+          "subjectSpan": [3, 4],
+          "relation": "fled",
+          "relationSpan": [4, 5],
+          "object": "allowing",
+          "objectSpan": [6, 7]
+        },
+        {
+          "subject": "Xizor",
+          "subjectSpan": [0, 1],
+          "relation": "fled",
+          "relationSpan": [4, 5],
+          "object": "allowing",
+          "objectSpan": [6, 7]
+        },
+        {
+          "subject": "guards",
+          "subjectSpan": [3, 4],
+          "relation": "allowing",
+          "relationSpan": [6, 7],
+          "object": "rescue party",
+          "objectSpan": [8, 10]
+        }
+ {
+          "subject": "Skywalker",
+          "subjectSpan": [4, 5],
+          "relation": "was",
+          "relationSpan": [5, 6],
+          "object": "challenged",
+          "objectSpan": [6, 7]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [4, 5],
+          "relation": "was challenged by",
+          "relationSpan": [5, 8],
+          "object": "Guri",
+          "objectSpan": [8, 9]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [4, 5],
+          "relation": "was challenged",
+          "relationSpan": [5, 7],
+          "object": "they left",
+          "objectSpan": [1, 3]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [4, 5],
+          "relation": "was challenged by",
+          "relationSpan": [5, 8],
+          "object": "Xizor 's replica droid",
+          "objectSpan": [10, 16]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [4, 5],
+          "relation": "was challenged by",
+          "relationSpan": [5, 8],
+          "object": "Xizor 's Human replica droid",
+          "objectSpan": [10, 16]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [4, 5],
+          "relation": "was challenged by",
+          "relationSpan": [5, 8],
+          "object": "Xizor 's powerful Human replica droid",
+          "objectSpan": [10, 16]
+        },
+        {
+          "subject": "Xizor",
+          "subjectSpan": [10, 11],
+          "relation": "has",
+          "relationSpan": [11, 12],
+          "object": "powerful Human replica droid",
+          "objectSpan": [12, 16]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [4, 5],
+          "relation": "was challenged by",
+          "relationSpan": [5, 8],
+          "object": "Xizor 's powerful replica droid",
+          "objectSpan": [10, 16]
+        }
+	{
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "beating",
+          "relationSpan": [5, 6],
+          "object": "her empty-handed",
+          "objectSpan": [6, 8]
+        }
+	{
+          "subject": "he",
+          "subjectSpan": [9, 10],
+          "relation": "Along escaped in",
+          "relationSpan": [10, 12],
+          "object": "Millennium Falcon",
+          "objectSpan": [13, 15]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [9, 10],
+          "relation": "escaped in",
+          "relationSpan": [10, 12],
+          "object": "Millennium Falcon",
+          "objectSpan": [13, 15]
+        }
+	{
+          "subject": "Xizor",
+          "subjectSpan": [4, 5],
+          "relation": "by",
+          "relationSpan": [3, 4],
+          "object": "private fleet",
+          "objectSpan": [6, 8]
+        }
+ {
+          "subject": "Skywalker",
+          "subjectSpan": [3, 4],
+          "relation": "were",
+          "relationSpan": [7, 8],
+          "object": "thereafter sent",
+          "objectSpan": [1, 9]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [3, 4],
+          "relation": "were",
+          "relationSpan": [7, 8],
+          "object": "sent",
+          "objectSpan": [8, 9]
+        },
+        {
+          "subject": "his friends",
+          "subjectSpan": [5, 7],
+          "relation": "investigate",
+          "relationSpan": [15, 16],
+          "object": "disappearance",
+          "objectSpan": [17, 18]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [3, 4],
+          "relation": "were",
+          "relationSpan": [7, 8],
+          "object": "sent to Lahsbane",
+          "objectSpan": [8, 11]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [3, 4],
+          "relation": "were",
+          "relationSpan": [7, 8],
+          "object": "Shortly thereafter sent",
+          "objectSpan": [0, 9]
+        },
+        {
+          "subject": "his friends",
+          "subjectSpan": [5, 7],
+          "relation": "investigate",
+          "relationSpan": [15, 16],
+          "object": "disappearance of Rebel agents",
+          "objectSpan": [17, 21]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [3, 4],
+          "relation": "were",
+          "relationSpan": [7, 8],
+          "object": "thereafter sent to Lahsbane",
+          "objectSpan": [1, 11]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [3, 4],
+          "relation": "were",
+          "relationSpan": [7, 8],
+          "object": "Shortly thereafter sent to Lahsbane",
+          "objectSpan": [0, 11]
+        }

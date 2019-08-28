@@ -1,0 +1,816 @@
+{
+          "subject": "Leia Organa",
+          "subjectSpan": [18, 20],
+          "relation": "was",
+          "relationSpan": [20, 21],
+          "object": "was courted by Hapan prince Isolder",
+          "objectSpan": [20, 28]
+        },
+        {
+          "subject": "Leia Organa",
+          "subjectSpan": [18, 20],
+          "relation": "was",
+          "relationSpan": [20, 21],
+          "object": "was courted for her hand in marriage",
+          "objectSpan": [20, 33]
+        },
+        {
+          "subject": "Leia Organa",
+          "subjectSpan": [18, 20],
+          "relation": "was",
+          "relationSpan": [20, 21],
+          "object": "was courted by Hapan prince Isolder for her hand in marriage",
+          "objectSpan": [20, 33]
+        },
+        {
+          "subject": "her hand",
+          "subjectSpan": [29, 31],
+          "relation": "is in",
+          "relationSpan": [31, 32],
+          "object": "marriage",
+          "objectSpan": [32, 33]
+        },
+        {
+          "subject": "Leia Organa",
+          "subjectSpan": [18, 20],
+          "relation": "was",
+          "relationSpan": [20, 21],
+          "object": "was courted by Hapan prince Isolder for her hand",
+          "objectSpan": [20, 31]
+        },
+        {
+          "subject": "Isolder",
+          "subjectSpan": [27, 28],
+          "relation": "is by",
+          "relationSpan": [23, 24],
+          "object": "Hapan",
+          "objectSpan": [25, 26]
+        },
+        {
+          "subject": "Leia Organa",
+          "subjectSpan": [18, 20],
+          "relation": "was",
+          "relationSpan": [20, 21],
+          "object": "was courted",
+          "objectSpan": [20, 23]
+        },
+        {
+          "subject": "Isolder",
+          "subjectSpan": [27, 28],
+          "relation": "is by",
+          "relationSpan": [23, 24],
+          "object": "prince",
+          "objectSpan": [26, 27]
+        },
+        {
+          "subject": "Leia Organa",
+          "subjectSpan": [18, 20],
+          "relation": "was",
+          "relationSpan": [20, 21],
+          "object": "was courted for her hand",
+          "objectSpan": [20, 31]
+        }
+{
+          "subject": "Leia",
+          "subjectSpan": [6, 7],
+          "relation": "is abducted of",
+          "relationSpan": [5, 6],
+          "object": "Han Solo",
+          "objectSpan": [3, 5]
+        },
+        {
+          "subject": "Leia",
+          "subjectSpan": [6, 7],
+          "relation": "is",
+          "relationSpan": [3, 5],
+          "object": "Han Solo",
+          "objectSpan": [3, 5]
+        }
+{
+          "subject": "Rebellion",
+          "subjectSpan": [12, 13],
+          "relation": "of",
+          "relationSpan": [10, 11],
+          "object": "most famous figures",
+          "objectSpan": [14, 17]
+        },
+        {
+          "subject": "involving",
+          "subjectSpan": [8, 9],
+          "relation": "two",
+          "relationSpan": [9, 10],
+          "object": "Rebellion 's figures",
+          "objectSpan": [12, 17]
+        },
+        {
+          "subject": "involving",
+          "subjectSpan": [8, 9],
+          "relation": "two of",
+          "relationSpan": [9, 11],
+          "object": "Rebellion 's figures",
+          "objectSpan": [12, 17]
+        },
+        {
+          "subject": "galaxy",
+          "subjectSpan": [1, 2],
+          "relation": "was scandalized by",
+          "relationSpan": [2, 5],
+          "object": "apparent kidnapping",
+          "objectSpan": [6, 8]
+        },
+        {
+          "subject": "involving",
+          "subjectSpan": [8, 9],
+          "relation": "two",
+          "relationSpan": [9, 10],
+          "object": "Rebellion 's most famous figures",
+          "objectSpan": [12, 17]
+        },
+        {
+          "subject": "involving",
+          "subjectSpan": [8, 9],
+          "relation": "two",
+          "relationSpan": [9, 10],
+          "object": "Rebellion 's famous figures",
+          "objectSpan": [12, 17]
+        },
+        {
+          "subject": "involving",
+          "subjectSpan": [8, 9],
+          "relation": "two of",
+          "relationSpan": [9, 11],
+          "object": "Rebellion 's famous figures",
+          "objectSpan": [12, 17]
+        },
+        {
+          "subject": "involving",
+          "subjectSpan": [8, 9],
+          "relation": "two of",
+          "relationSpan": [9, 11],
+          "object": "Rebellion 's most famous figures",
+          "objectSpan": [12, 17]
+        },
+        {
+          "subject": "galaxy",
+          "subjectSpan": [1, 2],
+          "relation": "was",
+          "relationSpan": [2, 3],
+          "object": "scandalized",
+          "objectSpan": [3, 4]
+        }
+{
+          "subject": "Omogg",
+          "subjectSpan": [13, 14],
+          "relation": "is",
+          "relationSpan": [11, 12],
+          "object": "Drackmarian",
+          "objectSpan": [11, 12]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [0, 1],
+          "relation": "found",
+          "relationSpan": [5, 6],
+          "object": "investigators",
+          "objectSpan": [8, 9]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [0, 1],
+          "relation": "naturally started",
+          "relationSpan": [1, 3],
+          "object": "investigating",
+          "objectSpan": [3, 4]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [0, 1],
+          "relation": "started",
+          "relationSpan": [2, 3],
+          "object": "investigating",
+          "objectSpan": [3, 4]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [0, 1],
+          "relation": "found",
+          "relationSpan": [5, 6],
+          "object": "Hapan investigators",
+          "objectSpan": [7, 9]
+        }
+{
+          "subject": "name",
+          "subjectSpan": [12, 13],
+          "relation": "won in",
+          "relationSpan": [20, 22],
+          "object": "game",
+          "objectSpan": [24, 25]
+        },
+        {
+          "subject": "location",
+          "subjectSpan": [14, 15],
+          "relation": "won in",
+          "relationSpan": [20, 22],
+          "object": "game",
+          "objectSpan": [24, 25]
+        },
+        {
+          "subject": "name",
+          "subjectSpan": [12, 13],
+          "relation": "won in",
+          "relationSpan": [20, 22],
+          "object": "sabacc game",
+          "objectSpan": [23, 25]
+        },
+        {
+          "subject": "He",
+          "subjectSpan": [0, 1],
+          "relation": "stopped",
+          "relationSpan": [1, 2],
+          "object": "them",
+          "objectSpan": [2, 3]
+        },
+        {
+          "subject": "name",
+          "subjectSpan": [12, 13],
+          "relation": "won in",
+          "relationSpan": [20, 22],
+          "object": "game from Omogg",
+          "objectSpan": [24, 27]
+        },
+        {
+          "subject": "location",
+          "subjectSpan": [14, 15],
+          "relation": "won in",
+          "relationSpan": [20, 22],
+          "object": "sabacc game from Omogg",
+          "objectSpan": [23, 27]
+        },
+        {
+          "subject": "He",
+          "subjectSpan": [0, 1],
+          "relation": "was",
+          "relationSpan": [9, 10],
+          "object": "given",
+          "objectSpan": [10, 11]
+        },
+        {
+          "subject": "He",
+          "subjectSpan": [0, 1],
+          "relation": "was given as",
+          "relationSpan": [9, 11],
+          "object": "reward",
+          "objectSpan": [7, 8]
+        },
+        {
+          "subject": "location",
+          "subjectSpan": [14, 15],
+          "relation": "won in",
+          "relationSpan": [20, 22],
+          "object": "game from Omogg",
+          "objectSpan": [24, 27]
+        },
+        {
+          "subject": "location",
+          "subjectSpan": [14, 15],
+          "relation": "won in",
+          "relationSpan": [20, 22],
+          "object": "sabacc game",
+          "objectSpan": [23, 25]
+        },
+        {
+          "subject": "name",
+          "subjectSpan": [12, 13],
+          "relation": "won in",
+          "relationSpan": [20, 22],
+          "object": "sabacc game from Omogg",
+          "objectSpan": [23, 27]
+        },
+        {
+          "subject": "location",
+          "subjectSpan": [14, 15],
+          "relation": "name of",
+          "relationSpan": [12, 13],
+          "object": "planet Han",
+          "objectSpan": [17, 19]
+        }
+{
+          "subject": "Luke",
+          "subjectSpan": [0, 1],
+          "relation": "traveled on",
+          "relationSpan": [3, 4],
+          "object": "Song to Dathomir",
+          "objectSpan": [8, 13]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [0, 1],
+          "relation": "traveled with",
+          "relationSpan": [3, 5],
+          "object": "Isolder",
+          "objectSpan": [5, 6]
+        },
+        {
+          "subject": "R2-D2",
+          "subjectSpan": [2, 3],
+          "relation": "traveled on",
+          "relationSpan": [3, 4],
+          "object": "Song of War",
+          "objectSpan": [8, 11]
+        },
+        {
+          "subject": "R2-D2",
+          "subjectSpan": [2, 3],
+          "relation": "traveled on",
+          "relationSpan": [3, 4],
+          "object": "Song to Dathomir",
+          "objectSpan": [8, 13]
+        },
+        {
+          "subject": "R2-D2",
+          "subjectSpan": [2, 3],
+          "relation": "traveled with",
+          "relationSpan": [3, 5],
+          "object": "Isolder",
+          "objectSpan": [5, 6]
+        },
+        {
+          "subject": "R2-D2",
+          "subjectSpan": [2, 3],
+          "relation": "traveled on",
+          "relationSpan": [3, 4],
+          "object": "Song of War to Dathomir",
+          "objectSpan": [8, 13]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [0, 1],
+          "relation": "traveled on",
+          "relationSpan": [3, 4],
+          "object": "Song",
+          "objectSpan": [8, 9]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [0, 1],
+          "relation": "traveled on",
+          "relationSpan": [3, 4],
+          "object": "Song of War",
+          "objectSpan": [8, 11]
+        },
+        {
+          "subject": "R2-D2",
+          "subjectSpan": [2, 3],
+          "relation": "traveled on",
+          "relationSpan": [3, 4],
+          "object": "Song",
+          "objectSpan": [8, 9]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [0, 1],
+          "relation": "traveled on",
+          "relationSpan": [3, 4],
+          "object": "Song of War to Dathomir",
+          "objectSpan": [8, 13]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [15, 16],
+          "relation": "faked",
+          "relationSpan": [16, 17],
+          "object": "his death",
+          "objectSpan": [17, 19]
+        },
+        {
+          "subject": "his death",
+          "subjectSpan": [17, 19],
+          "relation": "using",
+          "relationSpan": [21, 22],
+          "object": "Force",
+          "objectSpan": [23, 24]
+        }
+{
+          "subject": "Luke",
+          "subjectSpan": [6, 7],
+          "relation": "taught principles despite",
+          "relationSpan": [7, 8],
+          "object": "Isolder",
+          "objectSpan": [16, 17]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [6, 7],
+          "relation": "taught",
+          "relationSpan": [7, 8],
+          "object": "Isolder",
+          "objectSpan": [8, 9]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [6, 7],
+          "relation": "taught principles During",
+          "relationSpan": [7, 8],
+          "object": "their adventures on Dathomir",
+          "objectSpan": [1, 5]
+        },
+        {
+          "subject": "Isolder",
+          "subjectSpan": [16, 17],
+          "relation": "having",
+          "relationSpan": [17, 18],
+          "object": "Force-sensitivity",
+          "objectSpan": [19, 20]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [6, 7],
+          "relation": "taught",
+          "relationSpan": [7, 8],
+          "object": "principles of Force",
+          "objectSpan": [10, 14]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [6, 7],
+          "relation": "taught principles During",
+          "relationSpan": [7, 8],
+          "object": "their adventures",
+          "objectSpan": [1, 3]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [6, 7],
+          "relation": "taught",
+          "relationSpan": [7, 8],
+          "object": "principles",
+          "objectSpan": [10, 11]
+        },
+        {
+          "subject": "Isolder",
+          "subjectSpan": [16, 17],
+          "relation": "having",
+          "relationSpan": [17, 18],
+          "object": "negligible Force-sensitivity",
+          "objectSpan": [18, 20]
+        }
+ {
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "discovered",
+          "relationSpan": [5, 6],
+          "object": "ruins",
+          "objectSpan": [7, 8]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "discovered",
+          "relationSpan": [5, 6],
+          "object": "ruins of Chu'unthor",
+          "objectSpan": [7, 11]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "discovered ruins On",
+          "relationSpan": [5, 8],
+          "object": "planet",
+          "objectSpan": [2, 3]
+        }
+{
+          "subject": "Luke",
+          "subjectSpan": [0, 1],
+          "relation": "was seen as",
+          "relationSpan": [1, 4],
+          "object": "rarity among Dathomiri",
+          "objectSpan": [5, 9]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [0, 1],
+          "relation": "was",
+          "relationSpan": [1, 2],
+          "object": "seen",
+          "objectSpan": [2, 3]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [0, 1],
+          "relation": "was seen as",
+          "relationSpan": [1, 4],
+          "object": "rarity",
+          "objectSpan": [5, 6]
+        }
+{
+          "subject": "Singing Mountain Clan",
+          "subjectSpan": [12, 15],
+          "relation": "Nightsisters against",
+          "relationSpan": [25, 26],
+          "object": "dark side users",
+          "objectSpan": [18, 21]
+        },
+        {
+          "subject": "Mountain Clan",
+          "subjectSpan": [13, 15],
+          "relation": "Nightsisters against",
+          "relationSpan": [25, 26],
+          "object": "side users",
+          "objectSpan": [19, 21]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [0, 1],
+          "relation": "aid",
+          "relationSpan": [3, 4],
+          "object": "Teneniel Djo 's clan of witches",
+          "objectSpan": [4, 10]
+        },
+        {
+          "subject": "Singing Mountain Clan",
+          "subjectSpan": [12, 15],
+          "relation": "Nightsisters against",
+          "relationSpan": [25, 26],
+          "object": "side users",
+          "objectSpan": [19, 21]
+        },
+        {
+          "subject": "Mountain Clan",
+          "subjectSpan": [13, 15],
+          "relation": "Nightsisters against",
+          "relationSpan": [25, 26],
+          "object": "side users on Dathomir",
+          "objectSpan": [19, 23]
+        },
+        {
+          "subject": "Singing Mountain Clan",
+          "subjectSpan": [12, 15],
+          "relation": "Nightsisters against",
+          "relationSpan": [25, 26],
+          "object": "side users on Dathomir",
+          "objectSpan": [19, 23]
+        },
+        {
+          "subject": "Mountain Clan",
+          "subjectSpan": [13, 15],
+          "relation": "Nightsisters against",
+          "relationSpan": [25, 26],
+          "object": "dark side users on Dathomir",
+          "objectSpan": [18, 23]
+        },
+        {
+          "subject": "Mountain Clan",
+          "subjectSpan": [13, 15],
+          "relation": "Nightsisters against",
+          "relationSpan": [25, 26],
+          "object": "dark side users",
+          "objectSpan": [18, 21]
+        },
+        {
+          "subject": "Singing Mountain Clan",
+          "subjectSpan": [12, 15],
+          "relation": "Nightsisters against",
+          "relationSpan": [25, 26],
+          "object": "dark side users on Dathomir",
+          "objectSpan": [18, 23]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [0, 1],
+          "relation": "aid",
+          "relationSpan": [3, 4],
+          "object": "Teneniel Djo 's clan",
+          "objectSpan": [4, 8]
+        },
+        {
+          "subject": "Teneniel Djo",
+          "subjectSpan": [4, 6],
+          "relation": "has",
+          "relationSpan": [6, 7],
+          "object": "clan of witches",
+          "objectSpan": [7, 10]
+        }
+ {
+          "subject": "their",
+          "subjectSpan": [9, 10],
+          "relation": "leader",
+          "relationSpan": [10, 11],
+          "object": "Gethzerion",
+          "objectSpan": [12, 13]
+        }
+{
+          "subject": "Millennium Falcon",
+          "subjectSpan": [7, 9],
+          "relation": "operating",
+          "relationSpan": [10, 11],
+          "object": "all systems",
+          "objectSpan": [11, 15]
+        },
+        {
+          "subject": "Millennium Falcon",
+          "subjectSpan": [7, 9],
+          "relation": "operating",
+          "relationSpan": [10, 11],
+          "object": "all its systems",
+          "objectSpan": [11, 15]
+        },
+        {
+          "subject": "Millennium Falcon",
+          "subjectSpan": [7, 9],
+          "relation": "using",
+          "relationSpan": [18, 19],
+          "object": "power of Force",
+          "objectSpan": [20, 24]
+        },
+        {
+          "subject": "Millennium Falcon",
+          "subjectSpan": [7, 9],
+          "relation": "operating all its systems by",
+          "relationSpan": [10, 16],
+          "object": "himself",
+          "objectSpan": [16, 17]
+        },
+        {
+          "subject": "Millennium Falcon",
+          "subjectSpan": [7, 9],
+          "relation": "operating",
+          "relationSpan": [10, 11],
+          "object": "all of its systems",
+          "objectSpan": [11, 15]
+        },
+        {
+          "subject": "Millennium Falcon",
+          "subjectSpan": [7, 9],
+          "relation": "operating all systems by",
+          "relationSpan": [10, 12],
+          "object": "himself",
+          "objectSpan": [16, 17]
+        },
+        {
+          "subject": "Millennium Falcon",
+          "subjectSpan": [7, 9],
+          "relation": "operating all of systems by",
+          "relationSpan": [10, 16],
+          "object": "himself",
+          "objectSpan": [16, 17]
+        },
+        {
+          "subject": "Millennium Falcon",
+          "subjectSpan": [7, 9],
+          "relation": "operating",
+          "relationSpan": [10, 11],
+          "object": "all of systems",
+          "objectSpan": [11, 15]
+        },
+        {
+          "subject": "He",
+          "subjectSpan": [0, 1],
+          "relation": "went on to",
+          "relationSpan": [2, 5],
+          "object": "pilot",
+          "objectSpan": [5, 6]
+        },
+        {
+          "subject": "Millennium Falcon",
+          "subjectSpan": [7, 9],
+          "relation": "operating all of its systems by",
+          "relationSpan": [10, 16],
+          "object": "himself",
+          "objectSpan": [16, 17]
+        },
+        {
+          "subject": "Millennium Falcon",
+          "subjectSpan": [7, 9],
+          "relation": "using",
+          "relationSpan": [18, 19],
+          "object": "power",
+          "objectSpan": [20, 21]
+        }
+{
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "shot",
+          "relationSpan": [5, 6],
+          "object": "Gethzerion 's shuttle",
+          "objectSpan": [7, 10]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "shot down",
+          "relationSpan": [5, 7],
+          "object": "Gethzerion 's shuttle",
+          "objectSpan": [7, 10]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "Using",
+          "relationSpan": [0, 1],
+          "object": "Falcon",
+          "objectSpan": [2, 3]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "disabled",
+          "relationSpan": [18, 19],
+          "object": "nightcloak",
+          "objectSpan": [21, 22]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "killing",
+          "relationSpan": [11, 12],
+          "object": "aboard",
+          "objectSpan": [15, 16]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "disabled",
+          "relationSpan": [18, 19],
+          "object": "orbital nightcloak",
+          "objectSpan": [20, 22]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "disabled",
+          "relationSpan": [18, 19],
+          "object": "orbital nightcloak placed in orbit by Zsinj",
+          "objectSpan": [20, 27]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "disabled",
+          "relationSpan": [18, 19],
+          "object": "nightcloak placed by Zsinj",
+          "objectSpan": [21, 27]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "killing",
+          "relationSpan": [11, 12],
+          "object": "her",
+          "objectSpan": [12, 13]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "disabled",
+          "relationSpan": [18, 19],
+          "object": "orbital nightcloak placed in orbit",
+          "objectSpan": [20, 25]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "disabled",
+          "relationSpan": [18, 19],
+          "object": "orbital nightcloak placed by Zsinj",
+          "objectSpan": [20, 27]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "disabled",
+          "relationSpan": [18, 19],
+          "object": "nightcloak placed in orbit",
+          "objectSpan": [21, 25]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "disabled",
+          "relationSpan": [18, 19],
+          "object": "nightcloak placed",
+          "objectSpan": [21, 23]
+        },
+        {
+          "subject": "Gethzerion",
+          "subjectSpan": [7, 8],
+          "relation": "has",
+          "relationSpan": [8, 9],
+          "object": "shuttle",
+          "objectSpan": [9, 10]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "disabled",
+          "relationSpan": [18, 19],
+          "object": "orbital nightcloak placed",
+          "objectSpan": [20, 23]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [4, 5],
+          "relation": "disabled",
+          "relationSpan": [18, 19],
+          "object": "nightcloak placed in orbit by Zsinj",
+          "objectSpan": [21, 27]
+        }

@@ -1,0 +1,1216 @@
+{
+          "subject": "It",
+          "subjectSpan": [9, 10],
+          "relation": "has",
+          "relationSpan": [10, 11],
+          "object": "boy",
+          "objectSpan": [12, 13]
+        }
+{
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was born after",
+          "relationSpan": [23, 25],
+          "object": "shortly end of Clone Wars",
+          "objectSpan": [36, 44]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on asteroid colony after end of Clone Wars",
+          "objectSpan": [24, 44]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born in 19 BBY after end",
+          "objectSpan": [24, 40]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on colony of Polis Massa shortly after end of Clone Wars",
+          "objectSpan": [24, 44]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on asteroid colony of Polis Massa after end",
+          "objectSpan": [24, 40]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was born after",
+          "relationSpan": [23, 25],
+          "object": "end of Clone Wars",
+          "objectSpan": [39, 44]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on asteroid colony of Polis Massa shortly after end of Clone Wars",
+          "objectSpan": [24, 44]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on colony of Polis Massa after end of Clone Wars",
+          "objectSpan": [24, 44]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was born on",
+          "relationSpan": [23, 26],
+          "object": "colony",
+          "objectSpan": [28, 29]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born in 19 BBY after end of Clone Wars",
+          "objectSpan": [24, 44]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on colony in 19 BBY shortly after end",
+          "objectSpan": [24, 40]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on asteroid colony of Polis Massa shortly after end",
+          "objectSpan": [24, 40]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on asteroid colony after end",
+          "objectSpan": [24, 40]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was born on",
+          "relationSpan": [23, 26],
+          "object": "colony of Polis Massa",
+          "objectSpan": [28, 32]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was born after",
+          "relationSpan": [23, 25],
+          "object": "end",
+          "objectSpan": [39, 40]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was born on",
+          "relationSpan": [23, 26],
+          "object": "asteroid colony",
+          "objectSpan": [27, 29]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on colony in 19 BBY shortly after end of Clone Wars",
+          "objectSpan": [24, 44]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on colony shortly after end",
+          "objectSpan": [24, 40]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was born in",
+          "relationSpan": [23, 25],
+          "object": "19 BBY",
+          "objectSpan": [33, 35]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on colony after end",
+          "objectSpan": [24, 40]
+        },
+        {
+          "subject": "infant",
+          "subjectSpan": [17, 18],
+          "relation": "is in",
+          "relationSpan": [18, 19],
+          "object": "Luke Skywalker",
+          "objectSpan": [21, 23]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on asteroid colony shortly after end of Clone Wars",
+          "objectSpan": [24, 44]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born",
+          "objectSpan": [24, 25]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was born on",
+          "relationSpan": [23, 26],
+          "object": "asteroid colony of Polis Massa",
+          "objectSpan": [27, 32]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on colony of Polis Massa after end",
+          "objectSpan": [24, 40]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on colony of Polis Massa shortly after end",
+          "objectSpan": [24, 40]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on colony in 19 BBY after end of Clone Wars",
+          "objectSpan": [24, 44]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on asteroid colony of Polis Massa after end of Clone Wars",
+          "objectSpan": [24, 44]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born in 19 BBY shortly after end",
+          "objectSpan": [24, 40]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on colony after end of Clone Wars",
+          "objectSpan": [24, 44]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born in 19 BBY shortly after end of Clone Wars",
+          "objectSpan": [24, 44]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on asteroid colony shortly after end",
+          "objectSpan": [24, 40]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was born after",
+          "relationSpan": [23, 25],
+          "object": "shortly end",
+          "objectSpan": [36, 40]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on colony shortly after end of Clone Wars",
+          "objectSpan": [24, 44]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on colony in 19 BBY",
+          "objectSpan": [24, 35]
+        },
+        {
+          "subject": "Listen Luke",
+          "subjectSpan": [9, 15],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "born on colony in 19 BBY after end",
+          "objectSpan": [24, 40]
+        }
+{
+          "subject": "Padmé Amidala",
+          "subjectSpan": [21, 23],
+          "relation": "is Senator of",
+          "relationSpan": [20, 21],
+          "object": "Galactic Republic",
+          "objectSpan": [18, 20]
+        },
+        {
+          "subject": "Anakin Skywalker",
+          "subjectSpan": [27, 29],
+          "relation": "hero of",
+          "relationSpan": [32, 34],
+          "object": "Jedi Order",
+          "objectSpan": [35, 37]
+        },
+        {
+          "subject": "Padmé Amidala",
+          "subjectSpan": [21, 23],
+          "relation": "is of",
+          "relationSpan": [17, 18],
+          "object": "Senator",
+          "objectSpan": [20, 21]
+        },
+        {
+          "subject": "Padmé Amidala",
+          "subjectSpan": [21, 23],
+          "relation": "is of",
+          "relationSpan": [17, 18],
+          "object": "Galactic Republic",
+          "objectSpan": [18, 20]
+        }
+ {
+          "subject": "twins ' mother",
+          "subjectSpan": [1, 4],
+          "relation": "had",
+          "relationSpan": [4, 5],
+          "object": "had choked by her husband",
+          "objectSpan": [4, 10]
+        },
+        {
+          "subject": "Amidala",
+          "subjectSpan": [15, 16],
+          "relation": "betrayed",
+          "relationSpan": [18, 19],
+          "object": "him",
+          "objectSpan": [19, 20]
+        },
+        {
+          "subject": "Amidala",
+          "subjectSpan": [22, 23],
+          "relation": "lose will",
+          "relationSpan": [24, 27],
+          "object": "live",
+          "objectSpan": [28, 29]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [13, 14],
+          "relation": "believed",
+          "relationSpan": [14, 15],
+          "object": "Amidala",
+          "objectSpan": [15, 16]
+        },
+        {
+          "subject": "Amidala",
+          "subjectSpan": [22, 23],
+          "relation": "lose",
+          "relationSpan": [24, 25],
+          "object": "will",
+          "objectSpan": [26, 27]
+        },
+        {
+          "subject": "Amidala",
+          "subjectSpan": [15, 16],
+          "relation": "causing",
+          "relationSpan": [21, 22],
+          "object": "Amidala",
+          "objectSpan": [22, 23]
+        },
+        {
+          "subject": "twins ' mother",
+          "subjectSpan": [1, 4],
+          "relation": "had",
+          "relationSpan": [4, 5],
+          "object": "had choked",
+          "objectSpan": [4, 7]
+        },
+        {
+          "subject": "twins ' mother",
+          "subjectSpan": [1, 4],
+          "relation": "had",
+          "relationSpan": [4, 5],
+          "object": "had choked by her husband on Mustafar",
+          "objectSpan": [4, 12]
+        }
+  {
+          "subject": "children",
+          "subjectSpan": [7, 8],
+          "relation": "having",
+          "relationSpan": [10, 11],
+          "object": "affinity",
+          "objectSpan": [13, 14]
+        },
+        {
+          "subject": "children",
+          "subjectSpan": [7, 8],
+          "relation": "needed",
+          "relationSpan": [18, 19],
+          "object": "protection",
+          "objectSpan": [19, 20]
+        },
+        {
+          "subject": "children protection",
+          "subjectSpan": [7, 20],
+          "relation": "having",
+          "relationSpan": [10, 11],
+          "object": "affinity",
+          "objectSpan": [13, 14]
+        },
+        {
+          "subject": "children protection",
+          "subjectSpan": [7, 20],
+          "relation": "having",
+          "relationSpan": [10, 11],
+          "object": "affinity for Force",
+          "objectSpan": [13, 17]
+        },
+        {
+          "subject": "children",
+          "subjectSpan": [7, 8],
+          "relation": "having",
+          "relationSpan": [10, 11],
+          "object": "affinity for Force",
+          "objectSpan": [13, 17]
+        },
+        {
+          "subject": "children protection",
+          "subjectSpan": [7, 20],
+          "relation": "having",
+          "relationSpan": [10, 11],
+          "object": "natural affinity for Force",
+          "objectSpan": [12, 17]
+        },
+        {
+          "subject": "children",
+          "subjectSpan": [7, 8],
+          "relation": "having",
+          "relationSpan": [10, 11],
+          "object": "natural affinity for Force",
+          "objectSpan": [12, 17]
+        },
+        {
+          "subject": "children protection",
+          "subjectSpan": [7, 20],
+          "relation": "having",
+          "relationSpan": [10, 11],
+          "object": "natural affinity",
+          "objectSpan": [12, 14]
+        },
+        {
+          "subject": "children",
+          "subjectSpan": [7, 8],
+          "relation": "having",
+          "relationSpan": [10, 11],
+          "object": "natural affinity",
+          "objectSpan": [12, 14]
+        },
+        {
+          "subject": "children",
+          "subjectSpan": [7, 8],
+          "relation": "needed",
+          "relationSpan": [18, 19],
+          "object": "protection from Palpatine",
+          "objectSpan": [19, 22]
+        }
+{
+          "subject": "his",
+          "subjectSpan": [32, 33],
+          "relation": "wife",
+          "relationSpan": [33, 34],
+          "object": "Beru",
+          "objectSpan": [35, 36]
+        },
+        {
+          "subject": "Jedi Masters",
+          "subjectSpan": [12, 14],
+          "relation": "send infant boy",
+          "relationSpan": [16, 20],
+          "object": "live",
+          "objectSpan": [21, 22]
+        },
+        {
+          "subject": "it",
+          "subjectSpan": [1, 2],
+          "relation": "would",
+          "relationSpan": [2, 3],
+          "object": "would best",
+          "objectSpan": [2, 5]
+        },
+        {
+          "subject": "two Jedi Masters",
+          "subjectSpan": [11, 14],
+          "relation": "send",
+          "relationSpan": [16, 17],
+          "object": "infant boy",
+          "objectSpan": [18, 20]
+        },
+        {
+          "subject": "two Jedi Masters",
+          "subjectSpan": [11, 14],
+          "relation": "send infant boy",
+          "relationSpan": [16, 20],
+          "object": "live",
+          "objectSpan": [21, 22]
+        },
+        {
+          "subject": "Jedi Masters",
+          "subjectSpan": [12, 14],
+          "relation": "send infant boy",
+          "relationSpan": [16, 20],
+          "object": "live with his father 's stepbrother",
+          "objectSpan": [21, 27]
+        },
+        {
+          "subject": "they",
+          "subjectSpan": [6, 7],
+          "relation": "were",
+          "relationSpan": [7, 8],
+          "object": "separated",
+          "objectSpan": [8, 9]
+        },
+        {
+          "subject": "Jedi Masters",
+          "subjectSpan": [12, 14],
+          "relation": "send",
+          "relationSpan": [16, 17],
+          "object": "infant boy",
+          "objectSpan": [18, 20]
+        },
+        {
+          "subject": "father",
+          "subjectSpan": [24, 25],
+          "relation": "'s stepbrother is",
+          "relationSpan": [25, 27],
+          "object": "Owen Lars",
+          "objectSpan": [28, 30]
+        },
+        {
+          "subject": "Deciding",
+          "subjectSpan": [0, 1],
+          "relation": "would",
+          "relationSpan": [2, 3],
+          "object": "would best",
+          "objectSpan": [2, 5]
+        },
+        {
+          "subject": "father",
+          "subjectSpan": [24, 25],
+          "relation": "with",
+          "relationSpan": [22, 23],
+          "object": "stepbrother",
+          "objectSpan": [26, 27]
+        },
+        {
+          "subject": "two Jedi Masters",
+          "subjectSpan": [11, 14],
+          "relation": "send infant boy",
+          "relationSpan": [16, 20],
+          "object": "live with his father 's stepbrother",
+          "objectSpan": [21, 27]
+        },
+        {
+          "subject": "Tatooine",
+          "subjectSpan": [38, 39],
+          "relation": "on wife is",
+          "relationSpan": [37, 38],
+          "object": "Beru",
+          "objectSpan": [35, 36]
+        }
+{
+          "subject": "Leia",
+          "subjectSpan": [0, 1],
+          "relation": "live under",
+          "relationSpan": [4, 6],
+          "object": "protection of her newly adopted parents",
+          "objectSpan": [7, 13]
+        },
+        {
+          "subject": "Leia",
+          "subjectSpan": [0, 1],
+          "relation": "live under",
+          "relationSpan": [4, 6],
+          "object": "protection of her parents",
+          "objectSpan": [7, 13]
+        },
+        {
+          "subject": "Leia",
+          "subjectSpan": [0, 1],
+          "relation": "was sent",
+          "relationSpan": [1, 3],
+          "object": "live under protection",
+          "objectSpan": [4, 8]
+        },
+        {
+          "subject": "Leia",
+          "subjectSpan": [0, 1],
+          "relation": "was",
+          "relationSpan": [1, 2],
+          "object": "sent",
+          "objectSpan": [2, 3]
+        },
+        {
+          "subject": "Leia",
+          "subjectSpan": [0, 1],
+          "relation": "live under",
+          "relationSpan": [4, 6],
+          "object": "protection of her adopted parents",
+          "objectSpan": [7, 13]
+        },
+        {
+          "subject": "Leia",
+          "subjectSpan": [0, 1],
+          "relation": "was sent",
+          "relationSpan": [1, 3],
+          "object": "live under protection of her parents",
+          "objectSpan": [4, 13]
+        },
+        {
+          "subject": "Leia",
+          "subjectSpan": [0, 1],
+          "relation": "was sent",
+          "relationSpan": [1, 3],
+          "object": "live",
+          "objectSpan": [4, 5]
+        },
+        {
+          "subject": "Leia",
+          "subjectSpan": [0, 1],
+          "relation": "was sent",
+          "relationSpan": [1, 3],
+          "object": "live under protection of her newly adopted parents",
+          "objectSpan": [4, 13]
+        },
+        {
+          "subject": "Leia",
+          "subjectSpan": [0, 1],
+          "relation": "was sent",
+          "relationSpan": [1, 3],
+          "object": "live under protection of her adopted parents",
+          "objectSpan": [4, 13]
+        },
+        {
+          "subject": "Leia",
+          "subjectSpan": [0, 1],
+          "relation": "live under",
+          "relationSpan": [4, 6],
+          "object": "protection",
+          "objectSpan": [7, 8]
+        }
+{
+          "subject": "Kenobi",
+          "subjectSpan": [51, 52],
+          "relation": "chose",
+          "relationSpan": [52, 53],
+          "object": "go",
+          "objectSpan": [54, 55]
+        },
+        {
+          "subject": "Kenobi",
+          "subjectSpan": [51, 52],
+          "relation": "go",
+          "relationSpan": [54, 55],
+          "object": "hiding on Tatooine",
+          "objectSpan": [56, 59]
+        },
+        {
+          "subject": "Kenobi",
+          "subjectSpan": [51, 52],
+          "relation": "go",
+          "relationSpan": [54, 55],
+          "object": "hiding",
+          "objectSpan": [56, 57]
+        },
+        {
+          "subject": "Kenobi",
+          "subjectSpan": [0, 1],
+          "relation": "making",
+          "relationSpan": [8, 9],
+          "object": "leg",
+          "objectSpan": [11, 12]
+        },
+        {
+          "subject": "Kenobi",
+          "subjectSpan": [0, 1],
+          "relation": "making",
+          "relationSpan": [8, 9],
+          "object": "first leg",
+          "objectSpan": [10, 12]
+        },
+        {
+          "subject": "Kenobi",
+          "subjectSpan": [0, 1],
+          "relation": "making",
+          "relationSpan": [8, 9],
+          "object": "first leg of journey",
+          "objectSpan": [10, 15]
+        },
+        {
+          "subject": "Kenobi",
+          "subjectSpan": [0, 1],
+          "relation": "took",
+          "relationSpan": [1, 2],
+          "object": "Soulless One to Nar Shaddaa",
+          "objectSpan": [22, 27]
+        },
+        {
+          "subject": "General Grievous",
+          "subjectSpan": [16, 18],
+          "relation": "in",
+          "relationSpan": [15, 16],
+          "object": "ship",
+          "objectSpan": [19, 20]
+        },
+        {
+          "subject": "Kenobi",
+          "subjectSpan": [0, 1],
+          "relation": "making",
+          "relationSpan": [8, 9],
+          "object": "leg of journey in General Grievous 's ship",
+          "objectSpan": [11, 20]
+        },
+        {
+          "subject": "Kenobi",
+          "subjectSpan": [0, 1],
+          "relation": "making",
+          "relationSpan": [8, 9],
+          "object": "leg of journey",
+          "objectSpan": [11, 15]
+        },
+        {
+          "subject": "journey",
+          "subjectSpan": [14, 15],
+          "relation": "is in",
+          "relationSpan": [15, 16],
+          "object": "General Grievous 's ship",
+          "objectSpan": [16, 20]
+        },
+        {
+          "subject": "Kenobi",
+          "subjectSpan": [0, 1],
+          "relation": "making",
+          "relationSpan": [8, 9],
+          "object": "first leg of journey in General Grievous 's ship",
+          "objectSpan": [10, 20]
+        }
+ {
+          "subject": "Kenobi",
+          "subjectSpan": [8, 9],
+          "relation": "visited Lars homestead at_time",
+          "relationSpan": [9, 13],
+          "object": "day",
+          "objectSpan": [14, 15]
+        }
+{
+          "subject": "Kenobi 's intervention",
+          "subjectSpan": [1, 4],
+          "relation": "would mark",
+          "relationSpan": [11, 13],
+          "object": "unwelcome man in Owen 's eyes",
+          "objectSpan": [15, 21]
+        },
+        {
+          "subject": "Kenobi 's intervention",
+          "subjectSpan": [1, 4],
+          "relation": "is in",
+          "relationSpan": [4, 5],
+          "object": "family business of Lars",
+          "objectSpan": [6, 11]
+        },
+        {
+          "subject": "Kenobi",
+          "subjectSpan": [28, 29],
+          "relation": "would stop as",
+          "relationSpan": [29, 32],
+          "object": "result",
+          "objectSpan": [26, 27]
+        },
+        {
+          "subject": "Kenobi",
+          "subjectSpan": [28, 29],
+          "relation": "would eventually stop as",
+          "relationSpan": [29, 32],
+          "object": "result",
+          "objectSpan": [26, 27]
+        },
+        {
+          "subject": "Kenobi",
+          "subjectSpan": [28, 29],
+          "relation": "watching boy at_time",
+          "relationSpan": [32, 35],
+          "object": "single day",
+          "objectSpan": [36, 38]
+        },
+        {
+          "subject": "Kenobi 's intervention",
+          "subjectSpan": [1, 4],
+          "relation": "would mark",
+          "relationSpan": [11, 13],
+          "object": "him",
+          "objectSpan": [13, 14]
+        },
+        {
+          "subject": "unwelcome man",
+          "subjectSpan": [15, 17],
+          "relation": "is in",
+          "relationSpan": [17, 18],
+          "object": "Owen 's eyes",
+          "objectSpan": [18, 21]
+        },
+        {
+          "subject": "Kenobi 's intervention",
+          "subjectSpan": [1, 4],
+          "relation": "would mark",
+          "relationSpan": [11, 13],
+          "object": "man in Owen 's eyes",
+          "objectSpan": [16, 21]
+        },
+        {
+          "subject": "Kenobi 's intervention",
+          "subjectSpan": [1, 4],
+          "relation": "would mark",
+          "relationSpan": [11, 13],
+          "object": "man",
+          "objectSpan": [16, 17]
+        },
+        {
+          "subject": "Owen",
+          "subjectSpan": [18, 19],
+          "relation": "in",
+          "relationSpan": [17, 18],
+          "object": "eyes",
+          "objectSpan": [20, 21]
+        },
+        {
+          "subject": "Kenobi 's intervention",
+          "subjectSpan": [1, 4],
+          "relation": "would mark",
+          "relationSpan": [11, 13],
+          "object": "unwelcome man",
+          "objectSpan": [15, 17]
+        }
+ {
+          "subject": "his use",
+          "subjectSpan": [4, 7],
+          "relation": "was According to",
+          "relationSpan": [0, 2],
+          "object": "Skywalker",
+          "objectSpan": [2, 3]
+        },
+        {
+          "subject": "his first use",
+          "subjectSpan": [4, 7],
+          "relation": "was According to",
+          "relationSpan": [0, 2],
+          "object": "Skywalker",
+          "objectSpan": [2, 3]
+        }
+{
+          "subject": "He",
+          "subjectSpan": [0, 1],
+          "relation": "was",
+          "relationSpan": [1, 2],
+          "object": "severely scolded",
+          "objectSpan": [2, 4]
+        },
+        {
+          "subject": "He",
+          "subjectSpan": [0, 1],
+          "relation": "was severely scolded by",
+          "relationSpan": [1, 5],
+          "object": "his uncle with argument",
+          "objectSpan": [5, 11]
+        },
+        {
+          "subject": "He",
+          "subjectSpan": [0, 1],
+          "relation": "was severely scolded by",
+          "relationSpan": [1, 5],
+          "object": "his uncle",
+          "objectSpan": [5, 7]
+        },
+        {
+          "subject": "He",
+          "subjectSpan": [0, 1],
+          "relation": "was scolded by",
+          "relationSpan": [1, 5],
+          "object": "his uncle with argument",
+          "objectSpan": [5, 11]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [12, 13],
+          "relation": "only known",
+          "relationSpan": [14, 17],
+          "object": "its location",
+          "objectSpan": [17, 19]
+        },
+        {
+          "subject": "He",
+          "subjectSpan": [0, 1],
+          "relation": "was",
+          "relationSpan": [1, 2],
+          "object": "scolded",
+          "objectSpan": [3, 4]
+        },
+        {
+          "subject": "He",
+          "subjectSpan": [0, 1],
+          "relation": "was scolded by",
+          "relationSpan": [1, 5],
+          "object": "his uncle",
+          "objectSpan": [5, 7]
+        },
+        {
+          "subject": "his uncle",
+          "subjectSpan": [5, 7],
+          "relation": "is with",
+          "relationSpan": [8, 9],
+          "object": "argument",
+          "objectSpan": [10, 11]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [20, 21],
+          "relation": "placed",
+          "relationSpan": [21, 22],
+          "object": "it",
+          "objectSpan": [22, 23]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [12, 13],
+          "relation": "known",
+          "relationSpan": [16, 17],
+          "object": "its location",
+          "objectSpan": [17, 19]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [20, 21],
+          "relation": "placed there",
+          "relationSpan": [21, 24],
+          "object": "it",
+          "objectSpan": [22, 23]
+        }
+{
+          "subject": "following section",
+          "subjectSpan": [1, 3],
+          "relation": "contains",
+          "relationSpan": [3, 4],
+          "object": "information",
+          "objectSpan": [4, 5]
+        },
+        {
+          "subject": "section",
+          "subjectSpan": [2, 3],
+          "relation": "contains",
+          "relationSpan": [3, 4],
+          "object": "information",
+          "objectSpan": [4, 5]
+        },
+        {
+          "subject": "section",
+          "subjectSpan": [2, 3],
+          "relation": "contains",
+          "relationSpan": [3, 4],
+          "object": "information from Star Wars Tales 1",
+          "objectSpan": [4, 11]
+        },
+        {
+          "subject": "following section",
+          "subjectSpan": [1, 3],
+          "relation": "contains",
+          "relationSpan": [3, 4],
+          "object": "information from Star Wars Tales 1",
+          "objectSpan": [4, 11]
+        }
+{
+          "subject": "Editor discretion",
+          "subjectSpan": [0, 2],
+          "relation": "is",
+          "relationSpan": [2, 3],
+          "object": "advised",
+          "objectSpan": [3, 4]
+        }
+{
+          "subject": "Skywalker",
+          "subjectSpan": [1, 2],
+          "relation": "was",
+          "relationSpan": [2, 3],
+          "object": "When old",
+          "objectSpan": [0, 6]
+        },
+        {
+          "subject": "information",
+          "subjectSpan": [16, 17],
+          "relation": "concerning",
+          "relationSpan": [17, 18],
+          "object": "his father",
+          "objectSpan": [18, 20]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [1, 2],
+          "relation": "was",
+          "relationSpan": [2, 3],
+          "object": "old",
+          "objectSpan": [5, 6]
+        },
+        {
+          "subject": "Owen",
+          "subjectSpan": [11, 12],
+          "relation": "tell",
+          "relationSpan": [14, 15],
+          "object": "information",
+          "objectSpan": [16, 17]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [1, 2],
+          "relation": "was",
+          "relationSpan": [2, 3],
+          "object": "When ten years old",
+          "objectSpan": [0, 6]
+        },
+        {
+          "subject": "Owen",
+          "subjectSpan": [11, 12],
+          "relation": "tell",
+          "relationSpan": [14, 15],
+          "object": "him",
+          "objectSpan": [15, 16]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [1, 2],
+          "relation": "was old",
+          "relationSpan": [2, 3],
+          "object": "ten years",
+          "objectSpan": [3, 5]
+        }
+{
+          "subject": "they",
+          "subjectSpan": [24, 25],
+          "relation": "leave Tatooine at_time",
+          "relationSpan": [28, 30],
+          "object": "day",
+          "objectSpan": [31, 32]
+        },
+        {
+          "subject": "they",
+          "subjectSpan": [35, 36],
+          "relation": "could sense",
+          "relationSpan": [36, 38],
+          "object": "things",
+          "objectSpan": [38, 39]
+        },
+        {
+          "subject": "they",
+          "subjectSpan": [35, 36],
+          "relation": "could sense",
+          "relationSpan": [36, 38],
+          "object": "they happened",
+          "objectSpan": [40, 42]
+        },
+        {
+          "subject": "they",
+          "subjectSpan": [35, 36],
+          "relation": "could sense things",
+          "relationSpan": [36, 39],
+          "object": "they happened",
+          "objectSpan": [40, 42]
+        },
+        {
+          "subject": "they",
+          "subjectSpan": [5, 6],
+          "relation": "had",
+          "relationSpan": [6, 7],
+          "object": "much",
+          "objectSpan": [7, 8]
+        },
+        {
+          "subject": "they",
+          "subjectSpan": [24, 25],
+          "relation": "leave",
+          "relationSpan": [28, 29],
+          "object": "Tatooine",
+          "objectSpan": [29, 30]
+        },
+        {
+          "subject": "they",
+          "subjectSpan": [18, 19],
+          "relation": "were",
+          "relationSpan": [19, 20],
+          "object": "great pilots",
+          "objectSpan": [21, 23]
+        }
+{
+          "subject": "astromech",
+          "subjectSpan": [4, 5],
+          "relation": "has",
+          "relationSpan": [5, 6],
+          "object": "motivator explode",
+          "objectSpan": [6, 9]
+        },
+        {
+          "subject": "Annie",
+          "subjectSpan": [0, 1],
+          "relation": "causing",
+          "relationSpan": [10, 11],
+          "object": "flare",
+          "objectSpan": [12, 13]
+        },
+        {
+          "subject": "Annie",
+          "subjectSpan": [0, 1],
+          "relation": "rigged up",
+          "relationSpan": [1, 3],
+          "object": "astromech 's motivator explode",
+          "objectSpan": [4, 9]
+        }
+{
+          "subject": "flare",
+          "subjectSpan": [3, 4],
+          "relation": "Unfortunately attracted",
+          "relationSpan": [0, 1],
+          "object": "attention",
+          "objectSpan": [6, 7]
+        },
+        {
+          "subject": "flare",
+          "subjectSpan": [3, 4],
+          "relation": "attracted",
+          "relationSpan": [4, 5],
+          "object": "attention of krayt dragon",
+          "objectSpan": [6, 11]
+        },
+        {
+          "subject": "flare",
+          "subjectSpan": [3, 4],
+          "relation": "Unfortunately attracted",
+          "relationSpan": [0, 1],
+          "object": "attention of krayt dragon",
+          "objectSpan": [6, 11]
+        },
+        {
+          "subject": "flare",
+          "subjectSpan": [3, 4],
+          "relation": "attracted",
+          "relationSpan": [4, 5],
+          "object": "attention",
+          "objectSpan": [6, 7]
+        }
+{
+          "subject": "it",
+          "subjectSpan": [6, 7],
+          "relation": "was",
+          "relationSpan": [7, 8],
+          "object": "just dream",
+          "objectSpan": [10, 13]
+        }
+{
+          "subject": "encounter Skywalker",
+          "subjectSpan": [6, 8],
+          "relation": "was",
+          "relationSpan": [2, 3],
+          "object": "remembered",
+          "objectSpan": [8, 9]
+        },
+        {
+          "subject": "Beggar",
+          "subjectSpan": [19, 20],
+          "relation": "has",
+          "relationSpan": [20, 21],
+          "object": "Canyon in T-16 skyhopper",
+          "objectSpan": [21, 27]
+        },
+        {
+          "subject": "Beggar 's Canyon",
+          "subjectSpan": [19, 22],
+          "relation": "is in",
+          "relationSpan": [22, 23],
+          "object": "Skywalker 's T-16 skyhopper",
+          "objectSpan": [23, 27]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [7, 8],
+          "relation": "is",
+          "relationSpan": [5, 6],
+          "object": "first",
+          "objectSpan": [5, 6]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [23, 24],
+          "relation": "in",
+          "relationSpan": [22, 23],
+          "object": "T-16 skyhopper",
+          "objectSpan": [25, 27]
+        },
+        {
+          "subject": "first encounter Skywalker",
+          "subjectSpan": [5, 8],
+          "relation": "was",
+          "relationSpan": [2, 3],
+          "object": "remembered",
+          "objectSpan": [8, 9]
+        }

@@ -1,0 +1,472 @@
+{
+          "subject": "Luke",
+          "subjectSpan": [7, 8],
+          "relation": "studying",
+          "relationSpan": [8, 9],
+          "object": "Jedi ways under Yoda 's instructions",
+          "objectSpan": [10, 16]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [25, 26],
+          "relation": "encountered",
+          "relationSpan": [26, 27],
+          "object": "Yoda",
+          "objectSpan": [27, 28]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [7, 8],
+          "relation": "studying",
+          "relationSpan": [8, 9],
+          "object": "Jedi ways under Yoda 's instructions on Dagobah Skywalker",
+          "objectSpan": [10, 19]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [7, 8],
+          "relation": "traveled to",
+          "relationSpan": [20, 22],
+          "object": "Dagobah",
+          "objectSpan": [22, 23]
+        },
+        {
+          "subject": "Luke",
+          "subjectSpan": [7, 8],
+          "relation": "studying",
+          "relationSpan": [8, 9],
+          "object": "Jedi ways",
+          "objectSpan": [10, 12]
+        },
+        {
+          "subject": "Yoda",
+          "subjectSpan": [13, 14],
+          "relation": "under",
+          "relationSpan": [12, 13],
+          "object": "instructions on Dagobah Skywalker",
+          "objectSpan": [15, 19]
+        }
+{
+          "subject": "Skywalker",
+          "subjectSpan": [5, 6],
+          "relation": "was frustrated In",
+          "relationSpan": [6, 8],
+          "object": "their initial meeting",
+          "objectSpan": [1, 4]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [5, 6],
+          "relation": "was frustrated In",
+          "relationSpan": [6, 8],
+          "object": "their meeting",
+          "objectSpan": [1, 4]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [5, 6],
+          "relation": "was",
+          "relationSpan": [6, 7],
+          "object": "frustrated",
+          "objectSpan": [7, 8]
+        }
+{
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "gained",
+          "relationSpan": [1, 2],
+          "object": "new appreciation for creature",
+          "objectSpan": [3, 9]
+        },
+        {
+          "subject": "Yoda",
+          "subjectSpan": [15, 16],
+          "relation": "train Skywalker at",
+          "relationSpan": [18, 22],
+          "object": "insistence of Kenobi 's spirit",
+          "objectSpan": [23, 28]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "learning",
+          "relationSpan": [10, 11],
+          "object": "his identity",
+          "objectSpan": [11, 13]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "gained",
+          "relationSpan": [1, 2],
+          "object": "appreciation",
+          "objectSpan": [4, 5]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "gained appreciation",
+          "relationSpan": [1, 2],
+          "object": "Yoda agreed",
+          "objectSpan": [15, 17]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "gained",
+          "relationSpan": [1, 2],
+          "object": "appreciation for creature",
+          "objectSpan": [4, 9]
+        },
+        {
+          "subject": "Yoda",
+          "subjectSpan": [15, 16],
+          "relation": "train Skywalker at",
+          "relationSpan": [18, 22],
+          "object": "insistence",
+          "objectSpan": [23, 24]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "gained",
+          "relationSpan": [1, 2],
+          "object": "appreciation for small creature",
+          "objectSpan": [4, 9]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "gained",
+          "relationSpan": [1, 2],
+          "object": "new appreciation for small creature",
+          "objectSpan": [3, 9]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "gained",
+          "relationSpan": [1, 2],
+          "object": "new appreciation",
+          "objectSpan": [3, 5]
+        },
+        {
+          "subject": "Yoda",
+          "subjectSpan": [15, 16],
+          "relation": "train Skywalker at",
+          "relationSpan": [18, 22],
+          "object": "only insistence of Kenobi 's spirit",
+          "objectSpan": [20, 28]
+        },
+        {
+          "subject": "Yoda",
+          "subjectSpan": [15, 16],
+          "relation": "train Skywalker at",
+          "relationSpan": [18, 22],
+          "object": "only insistence",
+          "objectSpan": [20, 24]
+        },
+        {
+          "subject": "Yoda",
+          "subjectSpan": [15, 16],
+          "relation": "train",
+          "relationSpan": [18, 19],
+          "object": "Skywalker",
+          "objectSpan": [19, 20]
+        },
+        {
+          "subject": "Kenobi",
+          "subjectSpan": [25, 26],
+          "relation": "of",
+          "relationSpan": [24, 25],
+          "object": "spirit",
+          "objectSpan": [27, 28]
+        }
+ {
+          "subject": "his past",
+          "subjectSpan": [9, 12],
+          "relation": "had shaped",
+          "relationSpan": [12, 14],
+          "object": "his mind",
+          "objectSpan": [14, 16]
+        },
+        {
+          "subject": "Skywalker 's training",
+          "subjectSpan": [0, 3],
+          "relation": "proved",
+          "relationSpan": [3, 4],
+          "object": "difficult",
+          "objectSpan": [6, 7]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [0, 1],
+          "relation": "has",
+          "relationSpan": [1, 2],
+          "object": "training",
+          "objectSpan": [2, 3]
+        },
+        {
+          "subject": "his adventurous past",
+          "subjectSpan": [9, 12],
+          "relation": "had shaped",
+          "relationSpan": [12, 14],
+          "object": "his mind",
+          "objectSpan": [14, 16]
+        }
+{
+          "subject": "he",
+          "subjectSpan": [10, 11],
+          "relation": "was",
+          "relationSpan": [11, 12],
+          "object": "supposed",
+          "objectSpan": [12, 13]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [22, 23],
+          "relation": "was challenged by",
+          "relationSpan": [23, 26],
+          "object": "vision of himself",
+          "objectSpan": [27, 30]
+        },
+        {
+          "subject": "Yoda",
+          "subjectSpan": [1, 2],
+          "relation": "asked",
+          "relationSpan": [2, 3],
+          "object": "him",
+          "objectSpan": [3, 4]
+        },
+        {
+          "subject": "Darth Vader",
+          "subjectSpan": [31, 33],
+          "relation": "has",
+          "relationSpan": [33, 34],
+          "object": "armor",
+          "objectSpan": [34, 35]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [22, 23],
+          "relation": "was",
+          "relationSpan": [23, 24],
+          "object": "challenged",
+          "objectSpan": [24, 25]
+        },
+        {
+          "subject": "him",
+          "subjectSpan": [3, 4],
+          "relation": "enter",
+          "relationSpan": [5, 6],
+          "object": "cave",
+          "objectSpan": [7, 8]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [10, 11],
+          "relation": "was supposed",
+          "relationSpan": [11, 13],
+          "object": "find",
+          "objectSpan": [14, 15]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [22, 23],
+          "relation": "was challenged by",
+          "relationSpan": [23, 26],
+          "object": "vision",
+          "objectSpan": [27, 28]
+        }
+{
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "had",
+          "relationSpan": [4, 5],
+          "object": "vision of Han Solo suffering",
+          "objectSpan": [6, 14]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "after had",
+          "relationSpan": [1, 2],
+          "object": "vision",
+          "objectSpan": [6, 7]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "after had",
+          "relationSpan": [1, 2],
+          "object": "vision of Han Solo suffering at Cloud Cityon Bespin",
+          "objectSpan": [6, 18]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "had",
+          "relationSpan": [4, 5],
+          "object": "vision of Han Solo suffering at Cloud Cityon Bespin",
+          "objectSpan": [6, 18]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "Shortly after had",
+          "relationSpan": [0, 2],
+          "object": "vision suffering at Cloud Cityon Bespin",
+          "objectSpan": [6, 18]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "Shortly after had",
+          "relationSpan": [0, 2],
+          "object": "vision of Han Solo",
+          "objectSpan": [6, 10]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "after had",
+          "relationSpan": [1, 2],
+          "object": "vision of Han Solo suffering",
+          "objectSpan": [6, 14]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "had",
+          "relationSpan": [4, 5],
+          "object": "vision suffering",
+          "objectSpan": [6, 14]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "after had",
+          "relationSpan": [1, 2],
+          "object": "vision suffering at Cloud Cityon Bespin",
+          "objectSpan": [6, 18]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "Shortly after had",
+          "relationSpan": [0, 2],
+          "object": "vision of Han Solo suffering",
+          "objectSpan": [6, 14]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "Shortly after had",
+          "relationSpan": [0, 2],
+          "object": "vision suffering",
+          "objectSpan": [6, 14]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "had",
+          "relationSpan": [4, 5],
+          "object": "vision",
+          "objectSpan": [6, 7]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "had",
+          "relationSpan": [4, 5],
+          "object": "vision suffering at Cloud Cityon Bespin",
+          "objectSpan": [6, 18]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "after had",
+          "relationSpan": [1, 2],
+          "object": "vision suffering",
+          "objectSpan": [6, 14]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "Shortly after had",
+          "relationSpan": [0, 2],
+          "object": "vision",
+          "objectSpan": [6, 7]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "after had",
+          "relationSpan": [1, 2],
+          "object": "vision of Han Solo",
+          "objectSpan": [6, 10]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "Shortly after had",
+          "relationSpan": [0, 2],
+          "object": "vision of Han Solo suffering at Cloud Cityon Bespin",
+          "objectSpan": [6, 18]
+        },
+        {
+          "subject": "he",
+          "subjectSpan": [3, 4],
+          "relation": "had",
+          "relationSpan": [4, 5],
+          "object": "vision of Han Solo",
+          "objectSpan": [6, 10]
+        }
+{
+          "subject": "Skywalker",
+          "subjectSpan": [9, 10],
+          "relation": "rescue",
+          "relationSpan": [15, 16],
+          "object": "them",
+          "objectSpan": [16, 17]
+        },
+        {
+          "subject": "Kenobi",
+          "subjectSpan": [3, 4],
+          "relation": "has",
+          "relationSpan": [4, 5],
+          "object": "warnings",
+          "objectSpan": [5, 6]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [9, 10],
+          "relation": "rashly departed Despite",
+          "relationSpan": [10, 12],
+          "object": "Yoda",
+          "objectSpan": [1, 2]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [9, 10],
+          "relation": "rashly departed from",
+          "relationSpan": [10, 13],
+          "object": "Dagobah",
+          "objectSpan": [13, 14]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [9, 10],
+          "relation": "departed Despite",
+          "relationSpan": [11, 12],
+          "object": "Yoda",
+          "objectSpan": [1, 2]
+        },
+        {
+          "subject": "Skywalker",
+          "subjectSpan": [9, 10],
+          "relation": "departed from",
+          "relationSpan": [11, 13],
+          "object": "Dagobah",
+          "objectSpan": [13, 14]
+        }

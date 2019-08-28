@@ -1,0 +1,505 @@
+{
+          "subject": "threat",
+          "subjectSpan": [3, 4],
+          "relation": "Thereafter became to",
+          "relationSpan": [8, 11],
+          "object": "Empire",
+          "objectSpan": [12, 13]
+        },
+        {
+          "subject": "threat",
+          "subjectSpan": [3, 4],
+          "relation": "became",
+          "relationSpan": [8, 9],
+          "object": "real",
+          "objectSpan": [9, 10]
+        },
+        {
+          "subject": "serious measures",
+          "subjectSpan": [15, 17],
+          "relation": "restore",
+          "relationSpan": [20, 21],
+          "object": "Imperial control",
+          "objectSpan": [21, 23]
+        },
+        {
+          "subject": "threat",
+          "subjectSpan": [3, 4],
+          "relation": "Thereafter became",
+          "relationSpan": [0, 1],
+          "object": "real",
+          "objectSpan": [9, 10]
+        },
+        {
+          "subject": "serious measures",
+          "subjectSpan": [15, 17],
+          "relation": "were",
+          "relationSpan": [17, 18],
+          "object": "drafted",
+          "objectSpan": [18, 19]
+        },
+        {
+          "subject": "threat",
+          "subjectSpan": [3, 4],
+          "relation": "became to",
+          "relationSpan": [8, 11],
+          "object": "Empire",
+          "objectSpan": [12, 13]
+        },
+        {
+          "subject": "serious measures",
+          "subjectSpan": [15, 17],
+          "relation": "restore Imperial control over",
+          "relationSpan": [20, 24],
+          "object": "galaxy",
+          "objectSpan": [25, 26]
+        } 
+
+{
+          "subject": "moment",
+          "subjectSpan": [2, 3],
+          "relation": "came at",
+          "relationSpan": [3, 5],
+          "object": "Battle of Endor",
+          "objectSpan": [6, 9]
+        },
+        {
+          "subject": "best minds",
+          "subjectSpan": [39, 41],
+          "relation": "is in",
+          "relationSpan": [41, 42],
+          "object": "Imperial High Command",
+          "objectSpan": [43, 46]
+        },
+        {
+          "subject": "Alliance",
+          "subjectSpan": [12, 13],
+          "relation": "destroyed",
+          "relationSpan": [23, 24],
+          "object": "Death Star",
+          "objectSpan": [26, 28]
+        },
+        {
+          "subject": "Alliance",
+          "subjectSpan": [12, 13],
+          "relation": "defeated Imperial Military against",
+          "relationSpan": [18, 22],
+          "object": "overwhelming odds",
+          "objectSpan": [15, 17]
+        },
+        {
+          "subject": "Alliance",
+          "subjectSpan": [12, 13],
+          "relation": "defeated",
+          "relationSpan": [18, 19],
+          "object": "Imperial Military",
+          "objectSpan": [20, 22]
+        },
+        {
+          "subject": "Palpatine",
+          "subjectSpan": [31, 32],
+          "relation": "is",
+          "relationSpan": [30, 31],
+          "object": "Emperor",
+          "objectSpan": [30, 31]
+        },
+        {
+          "subject": "moment",
+          "subjectSpan": [2, 3],
+          "relation": "killing",
+          "relationSpan": [29, 30],
+          "object": "Emperor Palpatine",
+          "objectSpan": [30, 32]
+        },
+        {
+          "subject": "decisive moment",
+          "subjectSpan": [1, 3],
+          "relation": "killing",
+          "relationSpan": [29, 30],
+          "object": "Emperor Palpatine",
+          "objectSpan": [30, 32]
+        },
+        {
+          "subject": "moment",
+          "subjectSpan": [2, 3],
+          "relation": "killing",
+          "relationSpan": [29, 30],
+          "object": "Darth Vader",
+          "objectSpan": [33, 35]
+        },
+        {
+          "subject": "decisive moment",
+          "subjectSpan": [1, 3],
+          "relation": "came at",
+          "relationSpan": [3, 5],
+          "object": "Battle",
+          "objectSpan": [6, 7]
+        },
+        {
+          "subject": "Alliance",
+          "subjectSpan": [12, 13],
+          "relation": "destroyed",
+          "relationSpan": [23, 24],
+          "object": "second Death Star",
+          "objectSpan": [25, 28]
+        },
+        {
+          "subject": "Alliance",
+          "subjectSpan": [12, 13],
+          "relation": "defeated Imperial Military against",
+          "relationSpan": [18, 22],
+          "object": "odds",
+          "objectSpan": [16, 17]
+        },
+        {
+          "subject": "decisive moment",
+          "subjectSpan": [1, 3],
+          "relation": "came at",
+          "relationSpan": [3, 5],
+          "object": "Battle of Endor",
+          "objectSpan": [6, 9]
+        },
+        {
+          "subject": "moment",
+          "subjectSpan": [2, 3],
+          "relation": "came at",
+          "relationSpan": [3, 5],
+          "object": "Battle",
+          "objectSpan": [6, 7]
+        },
+        {
+          "subject": "decisive moment",
+          "subjectSpan": [1, 3],
+          "relation": "killing",
+          "relationSpan": [29, 30],
+          "object": "Darth Vader",
+          "objectSpan": [33, 35]
+        }
+
+
+{
+          "subject": "Alliance",
+          "subjectSpan": [52, 53],
+          "relation": "grew into",
+          "relationSpan": [55, 57],
+          "object": "New Republic",
+          "objectSpan": [58, 60]
+        },
+        {
+          "subject": "Empire",
+          "subjectSpan": [4, 5],
+          "relation": "began to",
+          "relationSpan": [5, 7],
+          "object": "decay",
+          "objectSpan": [8, 9]
+        },
+        {
+          "subject": "Palpatine",
+          "subjectSpan": [27, 28],
+          "relation": "is of",
+          "relationSpan": [25, 26],
+          "object": "Emperor",
+          "objectSpan": [26, 27]
+        },
+        {
+          "subject": "it",
+          "subjectSpan": [39, 40],
+          "relation": "was",
+          "relationSpan": [40, 41],
+          "object": "reduced",
+          "objectSpan": [41, 42]
+        },
+        {
+          "subject": "it",
+          "subjectSpan": [39, 40],
+          "relation": "was reduced to",
+          "relationSpan": [40, 43],
+          "object": "mere remnant of its former-self",
+          "objectSpan": [44, 49]
+        },
+        {
+          "subject": "Daala",
+          "subjectSpan": [31, 32],
+          "relation": "is",
+          "relationSpan": [30, 31],
+          "object": "Admiral",
+          "objectSpan": [30, 31]
+        },
+        {
+          "subject": "it",
+          "subjectSpan": [39, 40],
+          "relation": "was reduced to",
+          "relationSpan": [40, 43],
+          "object": "remnant",
+          "objectSpan": [45, 46]
+        },
+        {
+          "subject": "Empire",
+          "subjectSpan": [4, 5],
+          "relation": "began From",
+          "relationSpan": [5, 6],
+          "object": "there",
+          "objectSpan": [1, 2]
+        },
+        {
+          "subject": "it",
+          "subjectSpan": [39, 40],
+          "relation": "was reduced to",
+          "relationSpan": [40, 43],
+          "object": "mere remnant",
+          "objectSpan": [44, 46]
+        },
+        {
+          "subject": "Empire",
+          "subjectSpan": [4, 5],
+          "relation": "began to",
+          "relationSpan": [5, 7],
+          "object": "gradually decay",
+          "objectSpan": [7, 9]
+        },
+        {
+          "subject": "it",
+          "subjectSpan": [39, 40],
+          "relation": "was reduced to",
+          "relationSpan": [40, 43],
+          "object": "remnant of its former-self",
+          "objectSpan": [45, 49]
+        },
+        {
+          "subject": "Thrawn",
+          "subjectSpan": [21, 22],
+          "relation": "is",
+          "relationSpan": [20, 21],
+          "object": "Admiral",
+          "objectSpan": [20, 21]
+        }
+
+
+{
+          "subject": "Gilad Pellaeon",
+          "subjectSpan": [21, 23],
+          "relation": "is between",
+          "relationSpan": [18, 19],
+          "object": "Admiral",
+          "objectSpan": [20, 21]
+        },
+        {
+          "subject": "Gilad Pellaeon",
+          "subjectSpan": [21, 23],
+          "relation": "is between",
+          "relationSpan": [18, 19],
+          "object": "Grand",
+          "objectSpan": [19, 20]
+        },
+        {
+          "subject": "19 ABY",
+          "subjectSpan": [9, 11],
+          "relation": "is with",
+          "relationSpan": [11, 12],
+          "object": "signing of Bastion Accords between Grand Admiral Gilad Pellaeon",
+          "objectSpan": [13, 23]
+        }
+
+
+
+        {
+          "subject": "galaxy",
+          "subjectSpan": [72, 73],
+          "relation": "was",
+          "relationSpan": [73, 74],
+          "object": "still very different",
+          "objectSpan": [74, 77]
+        },
+        {
+          "subject": "Empire",
+          "subjectSpan": [1, 2],
+          "relation": "eventually enter into",
+          "relationSpan": [20, 23],
+          "object": "alliance with its former enemy",
+          "objectSpan": [24, 29]
+        },
+        {
+          "subject": "galaxy",
+          "subjectSpan": [72, 73],
+          "relation": "was still different during",
+          "relationSpan": [73, 77],
+          "object": "had Empire 's reign",
+          "objectSpan": [80, 87]
+        },
+        {
+          "subject": "alliance",
+          "subjectSpan": [24, 25],
+          "relation": "is with",
+          "relationSpan": [25, 26],
+          "object": "its former enemy",
+          "objectSpan": [26, 29]
+        },
+        {
+          "subject": "Empire",
+          "subjectSpan": [1, 2],
+          "relation": "enter during",
+          "relationSpan": [21, 22],
+          "object": "Yuuzhan Vong War",
+          "objectSpan": [31, 34]
+        },
+        {
+          "subject": "war",
+          "subjectSpan": [14, 15],
+          "relation": "has",
+          "relationSpan": [15, 16],
+          "object": "end",
+          "objectSpan": [16, 17]
+        },
+        {
+          "subject": "galaxy",
+          "subjectSpan": [72, 73],
+          "relation": "was",
+          "relationSpan": [73, 74],
+          "object": "very different",
+          "objectSpan": [75, 77]
+        },
+        {
+          "subject": "galaxy",
+          "subjectSpan": [72, 73],
+          "relation": "was very different during",
+          "relationSpan": [73, 77],
+          "object": "had Empire 's reign",
+          "objectSpan": [80, 87]
+        },
+        {
+          "subject": "galaxy",
+          "subjectSpan": [72, 73],
+          "relation": "was different during",
+          "relationSpan": [73, 74],
+          "object": "had Empire 's reign",
+          "objectSpan": [80, 87]
+        },
+        {
+          "subject": "Empire",
+          "subjectSpan": [1, 2],
+          "relation": "emerge as",
+          "relationSpan": [36, 38],
+          "object": "galaxy 's leading government",
+          "objectSpan": [39, 43]
+        },
+        {
+          "subject": "galaxy",
+          "subjectSpan": [72, 73],
+          "relation": "was still very different during",
+          "relationSpan": [73, 77],
+          "object": "had Empire 's reign",
+          "objectSpan": [80, 87]
+        },
+        {
+          "subject": "Empire",
+          "subjectSpan": [1, 2],
+          "relation": "emerge over",
+          "relationSpan": [36, 37],
+          "object": "one hundred years",
+          "objectSpan": [44, 47]
+        },
+        {
+          "subject": "galaxy",
+          "subjectSpan": [72, 73],
+          "relation": "was",
+          "relationSpan": [73, 74],
+          "object": "still different",
+          "objectSpan": [74, 77]
+        },
+        {
+          "subject": "Empire",
+          "subjectSpan": [1, 2],
+          "relation": "eventually enter into",
+          "relationSpan": [20, 23],
+          "object": "alliance",
+          "objectSpan": [24, 25]
+        },
+        {
+          "subject": "galaxy",
+          "subjectSpan": [72, 73],
+          "relation": "was",
+          "relationSpan": [73, 74],
+          "object": "different",
+          "objectSpan": [76, 77]
+        },
+        {
+          "subject": "Empire",
+          "subjectSpan": [1, 2],
+          "relation": "exist as",
+          "relationSpan": [4, 6],
+          "object": "entity",
+          "objectSpan": [8, 9]
+        },
+        {
+          "subject": "Empire",
+          "subjectSpan": [1, 2],
+          "relation": "enter into",
+          "relationSpan": [21, 23],
+          "object": "alliance with its former enemy",
+          "objectSpan": [24, 29]
+        },
+        {
+          "subject": "Empire",
+          "subjectSpan": [1, 2],
+          "relation": "eventually enter during",
+          "relationSpan": [20, 22],
+          "object": "Yuuzhan Vong War",
+          "objectSpan": [31, 34]
+        },
+        {
+          "subject": "galaxy",
+          "subjectSpan": [39, 40],
+          "relation": "as",
+          "relationSpan": [37, 38],
+          "object": "leading government",
+          "objectSpan": [41, 43]
+        },
+        {
+          "subject": "Empire",
+          "subjectSpan": [1, 2],
+          "relation": "enter into",
+          "relationSpan": [21, 23],
+          "object": "alliance",
+          "objectSpan": [24, 25]
+        },
+        {
+          "subject": "Empire",
+          "subjectSpan": [1, 2],
+          "relation": "emerge as",
+          "relationSpan": [36, 38],
+          "object": "galaxy 's government",
+          "objectSpan": [39, 43]
+        },
+        {
+          "subject": "it",
+          "subjectSpan": [79, 80],
+          "relation": "had during",
+          "relationSpan": [80, 83],
+          "object": "had Empire 's reign",
+          "objectSpan": [80, 87]
+        },
+        {
+          "subject": "Empire",
+          "subjectSpan": [1, 2],
+          "relation": "exist in",
+          "relationSpan": [4, 5],
+          "object": "years",
+          "objectSpan": [11, 12]
+        },
+        {
+          "subject": "Empire",
+          "subjectSpan": [1, 2],
+          "relation": "emerge over",
+          "relationSpan": [36, 37],
+          "object": "one hundred years later",
+          "objectSpan": [44, 48]
+        },
+        {
+          "subject": "Empire",
+          "subjectSpan": [1, 2],
+          "relation": "exist as",
+          "relationSpan": [4, 6],
+          "object": "autonomous entity",
+          "objectSpan": [7, 9]
+        }
+      ]
