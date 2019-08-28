@@ -69,6 +69,11 @@
   <div *ngIf="!results || !results.length">
     <h2>No Results Found</h2>
   </div>
+  <div *ngIf="results">
+    <span style="margin:20px">
+      <b>Character Entities:</b> <span *ngFor="let facet of facets"> {{facet.name}}: {{facet.count}}</span>
+    </span>
+  </div>
   <div class="card" *ngFor="let result of results" style="margin: 20px">
     <div class="title">
       <a routerLink="/story" [queryParams]="{uri: result.uri}" (click)="getArticle(result.uri)"><span style="font-weight: bold">Title:</span> {{result.uri}}</a>

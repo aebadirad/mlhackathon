@@ -31,7 +31,7 @@ export class AppService {
         `/v1/search?q=${query}&format=json&options=character&pageLength=5&collection=article&view=all`
       )
       .pipe(
-        map(result => result.results)
+        map(result => result)
       );
   }
 

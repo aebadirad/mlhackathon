@@ -16,6 +16,7 @@ export class StoryComponent implements OnInit {
   @Input() uri: string;
   doc: any;
   lukeDoc: any;
+  facets: any;
   docs = {};
   urisToLoad = [
     "/characters/1.json",
@@ -48,7 +49,7 @@ export class StoryComponent implements OnInit {
   search() {
     this.app.searchDoc(this.searchForm.value.q).subscribe(res => {
       let results = [];
-      for(let result of res) {
+      for(let result of res.results) {
         let snippet = "";
         for( let match of result.matches[0]['match-text']){
          if(match instanceof Object){
@@ -63,6 +64,7 @@ export class StoryComponent implements OnInit {
           snippet: snippet
         })
       }
+      this.facets = res.facets.character.facetValues;
       this.results = results;
       console.log(results);
     });
@@ -87,9 +89,9 @@ export class StoryComponent implements OnInit {
 
   public getSafeContent(): SafeHtml {
     let repl = this.article;
-    repl = repl.replace(/character/g, 'character style="background-color: #b7dff8; cursor: pointer;" ');
-    repl = repl.replace(/planet/g, 'planet style="background-color: #adddcf; cursor: pointer;"');
-    repl = repl.replace(/starship/g, 'starship style="background-color: #f0e0a2; cursor: pointer;"');
+    repl = repl.replace(/<character/g, '<character style="background-color: #b7dff8; cursor: pointer;" ');
+    repl = repl.replace(/<planet/g, '<planet style="background-color: #adddcf; cursor: pointer;"');
+    repl = repl.replace(/<starship/g, '<starship style="background-color: #f0e0a2; cursor: pointer;"');
     window.art.innerHTML = repl;
     return "";
   }
