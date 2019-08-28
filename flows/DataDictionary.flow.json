@@ -34,7 +34,7 @@
       "fileLocations" : {
         "inputFilePath" : "C:\\Users\\Alex\\Documents\\mlhackathon\\input\\manual",
         "inputFileType" : "xml",
-        "outputURIReplacement" : "",
+        "outputURIReplacement" : "/C/Users/Alex/Documents/mlhackathon/input/manual,''",
         "separator" : ","
       },
       "mappingName" : null,
