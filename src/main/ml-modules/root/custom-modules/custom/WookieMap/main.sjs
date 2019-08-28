@@ -41,7 +41,7 @@ function main(content, options) {
 
   let dictionary = cts.entityDictionary([
     cts.entity("1", "Luke Skywalker", "Luke Skywalker", "character"),
-    cts.entity("1", "Alderaan", "Alderaan", "planet")
+    cts.entity("2", "Alderaan", "Alderaan", "planet")
   ])
 
   //get our instance, default shape of envelope is envelope/instance, else it'll return an empty object/array
@@ -51,6 +51,45 @@ function main(content, options) {
 
   // get triples, return null if empty or cannot be found
   let triples =  [];
+
+  let chars = instance.Article.xpath('//*:character/@id')
+  for(let cid of chars) {
+    triples.push(sem.triple(sem.iri("http://marklogic.com/mlworld/Character-0.0.1/Character/"+cid),
+        sem.iri("http://www.w3.org/2000/01/rdf-schema#isMentionedIn"),
+        sem.iri(id)));
+
+    triples.push(sem.triple(sem.iri(id),
+        sem.iri("http://www.w3.org/2000/01/rdf-schema#mentions"),
+        sem.iri("http://marklogic.com/mlworld/Character-0.0.1/Character/"+cid)));
+
+    triples.push(sem.triple(sem.iri("/characters/"+cid+".json"),
+        sem.iri("http://www.w3.org/2000/01/rdf-schema#isMentionedIn"),
+        sem.iri(id)));
+
+    triples.push(sem.triple(sem.iri(id),
+        sem.iri("http://www.w3.org/2000/01/rdf-schema#mentions"),
+        sem.iri("/characters/"+cid+".json")));
+  }
+
+  let planets = instance.Article.xpath('//*:planet/@id')
+  for(let pid of planets) {
+    triples.push(sem.triple(sem.iri("http://marklogic.com/mlworld/Planets-0.0.1/Planets/"+pid),
+        sem.iri("http://www.w3.org/2000/01/rdf-schema#isMentionedIn"),
+        sem.iri(id)));
+
+    triples.push(sem.triple(sem.iri(id),
+        sem.iri("http://www.w3.org/2000/01/rdf-schema#mentions"),
+        sem.iri("http://marklogic.com/mlworld/Planets-0.0.1/Planets/"+pid)));
+
+    triples.push(sem.triple(sem.iri("/planets/"+pid+".json"),
+        sem.iri("http://www.w3.org/2000/01/rdf-schema#isMentionedIn"),
+        sem.iri(id)));
+
+    triples.push(sem.triple(sem.iri(id),
+        sem.iri("http://www.w3.org/2000/01/rdf-schema#mentions"),
+        sem.iri("/planets/"+pid+".json")));
+  }
+
 
   //gets headers, return null if cannot be found
   let headers = {};

@@ -48,9 +48,9 @@
       <element ns="" name="residents"/>
     </value>
   </constraint>
-  <constraint name="entity">
-    <range type="xs:string" facet="true">
-       <element ns="http://marklogic.com/entity" name="entity" />
+  <constraint name="character">
+    <range type="xs:string" facet="true" collation="http://marklogic.com/collation/en/S1">
+       <element ns="http://marklogic.com/entity" name="character" />
 	  <facet-option>frequency-order</facet-option>
       <facet-option>descending</facet-option>
     </range>

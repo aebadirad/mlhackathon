@@ -1,6 +1,6 @@
 function transform(context, params, content) {
   const instance = content.toObject().envelope.instance;
-  const entity = instance.Character || instance.Starships || instance.Planets || instance.Species;
+  const entity = instance.Character || instance.Starships || instance.Planets || instance.Species || instance.Article;
   const doc = Object.assign({}, entity);
   doc.uri = xdmp.nodeUri(content);
   doc.type = Object.keys(instance)[0].toLowerCase();

@@ -25,8 +25,8 @@
 	 {
       "scalar-type": "string",
       "namespace-uri": "http://marklogic.com/entity",
-      "localname": "entity",
-      "collation": "http://marklogic.com/collation",
+      "localname": "character",
+      "collation": "http://marklogic.com/collation/en/S1",
       "range-value-positions": false,
       "invalid-values": "reject"
     }

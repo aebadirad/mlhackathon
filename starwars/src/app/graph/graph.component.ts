@@ -35,7 +35,9 @@ export class GraphComponent implements OnInit, AfterViewInit {
       'http://www.w3.org/2000/01/rdf-schema#wasTrainedBy': 'Was Trained By',
       'http://www.w3.org/2000/01/rdf-schema#isA': 'is a',
       'http://www.w3.org/2000/01/rdf-schema#fliesStarship': 'flies a starship type',
-      'http://www.w3.org/2000/01/rdf-schema#residesOn': 'resides on'
+      'http://www.w3.org/2000/01/rdf-schema#residesOn': 'resides on',
+      'http://www.w3.org/2000/01/rdf-schema#isMentonedIn': 'is mentioned in',
+      'http://www.w3.org/2000/01/rdf-schema#mentions': 'mentions'
     },
 
     // this is the default data configuration, this is important.  It informs LodLive how to construct queries and how to read the data that comes back
@@ -143,7 +145,15 @@ export class GraphComponent implements OnInit, AfterViewInit {
         'http://www.w3.org/2000/01/rdf-schema#isRelatedTo': {
           color: '#551a8b',
           title: 'rdf:isRelatedTo'
-        }
+        },
+        'http://www.w3.org/2000/01/rdf-schema#isMentionedIn': {
+          color: '#553500',
+          title: 'rdf:isMentionedIn'
+        },
+        'http://www.w3.org/2000/01/rdf-schema#mentions': {
+          color: '#553500',
+          title: 'rdf:mentions'
+        },
       }
     },
 
