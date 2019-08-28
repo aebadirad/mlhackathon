@@ -1,4 +1,4 @@
-<div class="header" *ngIf="!doc && !article">
+<div class="header" *ngIf="!doc">
   <form [formGroup]="searchForm" (ngSubmit)="search()">
     <div style="text-align:center">
       <input formControlName="q" type="text">
@@ -65,35 +65,29 @@
   </div>
 </div>
 
-<div class="legend" *ngIf="!doc && article">
+<div class="results-container" *ngIf="!doc">
+  <div *ngIf="!results || !results.length">
+    <h2>No Results Found</h2>
+  </div>
+  <div class="card" *ngFor="let result of results" style="margin: 20px">
+    <div class="title">
+      <a routerLink="/story" [queryParams]="{uri: result.uri}" (click)="getArticle(result.uri)"><span style="font-weight: bold">Title:</span> {{result.uri}}</a>
+    </div>
+    <div class="snippet">
+      <span style="font-weight: bold">Snippet:</span> <span [innerHTML]="result.snippet"></span>
+    </div>
+  </div>
+</div>
+
+<div class="legend" *ngIf="article">
   Legend: <span class="character-legend">Characters</span> <span class="planet-legend">Places</span> <span
   class="starship-legend">Starships</span>
 </div>
 
-<div class="full-story-container" *ngIf="!doc && article">
+<div class="full-story-container" *ngIf="article">
+  <b>{{articleTitle}}</b>
   <p><i (click)="refresh()" class="fab fa-rebel"></i>
-  {{article}}
-  <p>The <span class="{{this.c('deathstar')}}" *ngIf="deathstar; else empire;"><a routerLink="/details" [queryParams]="{uri: this.u('deathstar')}" target="_new">{{deathstar}}</a></span> prepares to destroy the <span *ngIf="descSet(); else rebel">Rebel</span> base
-    while <span class="{{this.c('luke')}}" *ngIf="luke"><a routerLink="/details" [queryParams]="{uri: this.u('luke')}" target="_new">{{luke}}</a></span> joins the <span *ngIf="descSet(); else rebels">Rebels</span> in their offensive. Most of the
-    <span *ngIf="descSet(); else rebels">Rebels</span> are killed in the fight, but <span class="{{this.c('solo')}}" *ngIf="solo"><a routerLink="/details" [queryParams]="{uri: this.u('solo')}" target="_new">{{solo}}</a></span> returns at the most dramatic
-    moment to save <span class="{{this.c('luke')}}" *ngIf="luke"><a routerLink="/details" [queryParams]="{uri: this.u('luke')}" target="_new">{{luke}}</a></span>'s life. <span
-      class="{{this.c('luke')}}" *ngIf="luke"><a routerLink="/details" [queryParams]="{uri: this.u('luke')}" target="_new">{{luke}}</a></span> <span *ngIf="descSet()">makes the fateful shot,</span>
-    blows up the <span class="{{this.c('deathstar')}}" *ngIf="deathstar; else militarybase"><a routerLink="/details" [queryParams]="{uri: this.u('deathstar')}" target="_new">{{deathstar}}</a></span>, and returns to the <span *ngIf="descSet(); else rebels">Rebels</span>
-    a hero.</p>
-
-  <p>One award ceremony later and its happy endings all around.</p>
+    <span [innerHTML]="article"></span>
 </div>
 
-<div class="results-container" *ngIf="!doc && !article">
-  <div *ngIf="!results || !results.length">
-    <h2>No Results Found</h2>
-  </div>
-  <div class="card" *ngFor="let result of results">
-    <div class="title">
-      <a routerLink="/details" [queryParams]="{uri: result.uri}">{{result.name}}</a>
-    </div>
-    <div class="snippet">
-      {{result.snippet}}
-    </div>
-  </div>
-</div>
+

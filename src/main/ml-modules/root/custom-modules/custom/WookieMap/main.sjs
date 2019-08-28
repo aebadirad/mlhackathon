@@ -59,11 +59,15 @@ function main(content, options) {
   // get triples, return null if empty or cannot be found
   let triples =  [];
 
-  let chars = new Set(instance.Article..text.xpath('//*:character/@id').toArray())
+  let chars = fn.distinctValues(Sequence.from(instance.Article.text.xpath('//*:character/@id'))).toArray()
   for(let cid of chars) {
     triples.push(sem.triple(sem.iri("http://marklogic.com/mlworld/Character-0.0.1/Character/"+cid),
         sem.iri("http://www.w3.org/2000/01/rdf-schema#isMentionedIn"),
         sem.iri(id)));
+
+    triples.push(sem.triple(sem.iri("http://marklogic.com/mlworld/Character-0.0.1/Character/"+cid),
+        sem.iri("http://www.w3.org/2000/01/rdf-schema#isMentionedIn"),
+        sem.iri("http://marklogic.com/mlworld/Article-0.0.1/Article/"+id)));
 
     triples.push(sem.triple(sem.iri(id),
         sem.iri("http://www.w3.org/2000/01/rdf-schema#mentions"),
@@ -78,7 +82,7 @@ function main(content, options) {
         sem.iri("/characters/"+cid+".json")));
   }
 
-  let planets = new Set(instance.Article.text.xpath('//*:planet/@id').toArray())
+  let planets = fn.distinctValues(Sequence.from(instance.Article.text.xpath('//*:planet/@id'))).toArray()
   for(let pid of planets) {
     triples.push(sem.triple(sem.iri("http://marklogic.com/mlworld/Planets-0.0.1/Planets/"+pid),
         sem.iri("http://www.w3.org/2000/01/rdf-schema#isMentionedIn"),
@@ -97,7 +101,7 @@ function main(content, options) {
         sem.iri("/planets/"+pid+".json")));
   }
 
-  let starships = new Set(instance.Article.text.xpath('//*:starship/@id').toArray())
+  let starships = fn.distinctValues(Sequence.from(instance.Article.text.xpath('//*:starship/@id'))).toArray()
   for(let sid of starships) {
     triples.push(sem.triple(sem.iri("http://marklogic.com/mlworld/Starships-0.0.1/Starships/"+sid),
         sem.iri("http://www.w3.org/2000/01/rdf-schema#isMentionedIn"),
@@ -147,3 +151,7 @@ function main(content, options) {
 module.exports = {
   main: main
 };
+
+function onlyUnique(value, index, self) {
+  return self.indexOf(value) === index;
+}

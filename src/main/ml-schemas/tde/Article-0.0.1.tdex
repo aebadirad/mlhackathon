@@ -30,7 +30,7 @@ graph uri: http://marklogic.com/mlworld/Article-0.0.1</tde:description>
       <tde:vars>
         <tde:var>
           <tde:name>subject-iri</tde:name>
-          <tde:val>sem:iri(concat("http://marklogic.com/mlworld/Article-0.0.1/Article/", fn:encode-for-uri(xs:string(./id))))</tde:val>
+          <tde:val>sem:iri(concat("http://marklogic.com/mlworld/Article-0.0.1/Article/", fn:encode-for-uri(xs:string(./name))))</tde:val>
         </tde:var>
       </tde:vars>
       <tde:triples>

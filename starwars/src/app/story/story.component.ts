@@ -2,6 +2,10 @@ import { Component, Input, OnInit, OnChanges } from "@angular/core";
 import { FormGroup, FormControl } from "@angular/forms";
 import { AppService } from "../app.service";
 
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs/Observable';
+import { map, switchMap } from 'rxjs/operators';
+
 @Component({
   selector: "app-story",
   templateUrl: "./story.component.html",
@@ -10,7 +14,6 @@ import { AppService } from "../app.service";
 export class StoryComponent implements OnInit {
   @Input() uri: string;
   doc: any;
-  article: any;
   lukeDoc: any;
   docs = {};
   urisToLoad = [
@@ -33,19 +36,50 @@ export class StoryComponent implements OnInit {
     "/planets/2.json",
     "/planets/3.json"
   ];
-  constructor(private app: AppService) {}
+  constructor(private app: AppService, private http: HttpClient) {}
   results: any;
-
+  article: any;
+  articleTitle: any;
   searchForm: FormGroup = new FormGroup({
     q: new FormControl('')
   });
 
   search() {
     this.app.searchDoc(this.searchForm.value.q).subscribe(res => {
-      this.results = res;
+      let results = [];
+      for(let result of res) {
+        let snippet = "";
+        for( let match of result.matches[0]['match-text']){
+         if(match instanceof Object){
+          snippet +=  '<span class="highlight starships"><b>' +match.highlight+"</b></span>";
+         } else {
+           snippet += match;
+         }
+         snippet += " ";
+        }
+        results.push({
+          uri: result.uri,
+          snippet: snippet
+        })
+      }
+      this.results = results;
+      console.log(results);
     });
   }
 
+  getArticle(uri: string) {
+    const parser = new DOMParser();
+    let xmlDoc;
+    var self = this;
+    this.article = {};
+    this.http.get(`/v1/documents?uri=${encodeURI(uri)}`, { responseType: 'text' }).subscribe(doc => {
+
+        xmlDoc = parser.parseFromString(doc, "text/xml");
+        self.articleTitle = xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+        self.article = xmlDoc.getElementsByTagName("text")[0].childNodes[0].nodeValue;
+      }
+    );
+  }
 
 
   getLukeDoc(){

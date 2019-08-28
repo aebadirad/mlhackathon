@@ -32,6 +32,9 @@ export class DetailsComponent implements OnInit {
     if(this.doc.type == 'starships') {
       iri = "http://marklogic.com/mlworld/Starships-0.0.1/Starships/";
     }
+    if(this.doc.type == 'article') {
+      iri = "http://marklogic.com/mlworld/Article-0.0.1/Article/";
+    }
     return iri;
   }
 

@@ -28,15 +28,10 @@ export class AppService {
   searchDoc(query: string): Observable<any> {
     return this.http
       .get<any>(
-        `/v1/search?q=${query}&format=xml&options=character&pageLength=5&collection=article&view=all`
+        `/v1/search?q=${query}&format=json&options=character&pageLength=5&collection=article&view=all`
       )
       .pipe(
-        map(result => result.results),
-        map((results: Array<any>) =>
-          results.map(result =>
-            this.getInstance(result.matches[0], result.uri)
-          )
-        )
+        map(result => result.results)
       );
   }
 

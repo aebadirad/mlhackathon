@@ -3,3 +3,4 @@ mlw2018datahubtalk.iml
 .idea/
 .gradle/
 .tmp/
+build/ml-javaclient-util/local-module-timestamps.properties
