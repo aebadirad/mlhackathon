@@ -26,9 +26,9 @@
         "targetDatabase" : "data-hub-STAGING"
       },
       "customHook" : { },
-      "retryLimit" : null,
-      "batchSize" : null,
-      "threadCount" : null,
+      "retryLimit" : 0,
+      "batchSize" : 0,
+      "threadCount" : 0,
       "stepDefinitionName" : "default-ingestion",
       "stepDefinitionType" : "INGESTION",
       "fileLocations" : {
@@ -37,33 +37,33 @@
         "outputURIReplacement" : "/C/Users/Alex/Documents/mlhackathon/input/swapi,''",
         "separator" : ","
       },
+      "customStep" : false,
       "mappingName" : null,
-      "mappingStep" : false,
-      "customStep" : false
+      "mappingStep" : false
     },
     "2" : {
       "name" : "PlanetMap",
       "description" : "",
       "options" : {
-        "additionalCollections" : [ "planet", "planets" ],
+        "additionalCollections" : [ "planet", "planets", "entity" ],
         "sourceQuery" : "cts.collectionQuery([\"Planets\"])",
         "targetEntity" : "",
-        "collections" : [ "PlanetMap", "planet" ],
+        "collections" : [ "PlanetMap", "planet", "planets", "entity" ],
         "sourceDatabase" : "data-hub-STAGING",
         "sourceCollection" : "Planets",
         "outputFormat" : "json",
         "targetDatabase" : "data-hub-FINAL"
       },
       "customHook" : null,
-      "retryLimit" : 0,
-      "batchSize" : 0,
-      "threadCount" : 0,
+      "retryLimit" : null,
+      "batchSize" : null,
+      "threadCount" : null,
       "stepDefinitionName" : "PlanetMap",
       "stepDefinitionType" : "CUSTOM",
       "modulePath" : "/custom-modules/custom/PlanetMap/main.sjs",
+      "customStep" : true,
       "mappingName" : null,
-      "mappingStep" : false,
-      "customStep" : true
+      "mappingStep" : false
     }
   }
 }

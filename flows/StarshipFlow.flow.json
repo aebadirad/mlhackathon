@@ -26,9 +26,9 @@
         "targetDatabase" : "data-hub-STAGING"
       },
       "customHook" : { },
-      "retryLimit" : null,
-      "batchSize" : null,
-      "threadCount" : null,
+      "retryLimit" : 0,
+      "batchSize" : 0,
+      "threadCount" : 0,
       "stepDefinitionName" : "default-ingestion",
       "stepDefinitionType" : "INGESTION",
       "fileLocations" : {
@@ -37,15 +37,15 @@
         "outputURIReplacement" : "/C/Users/Alex/Documents/mlhackathon/input/swapi,''",
         "separator" : ","
       },
+      "customStep" : false,
       "mappingName" : null,
-      "mappingStep" : false,
-      "customStep" : false
+      "mappingStep" : false
     },
     "2" : {
       "name" : "StarshipMap",
       "description" : "",
       "options" : {
-        "additionalCollections" : [ "starship", "starships" ],
+        "additionalCollections" : [ "starship", "starships", "entity" ],
         "sourceQuery" : "cts.collectionQuery([\"Starship\"])",
         "mapping" : {
           "name" : "StarshipFlow-StarshipMap",
@@ -53,20 +53,20 @@
         },
         "targetEntity" : "Starships",
         "sourceDatabase" : "data-hub-STAGING",
-        "collections" : [ "StarshipMap", "Starships", "starship", "starships" ],
+        "collections" : [ "StarshipMap", "Starships", "starship", "starships", "entity" ],
         "sourceCollection" : "Starship",
         "outputFormat" : "json",
         "targetDatabase" : "data-hub-FINAL"
       },
       "customHook" : { },
-      "retryLimit" : 0,
-      "batchSize" : 0,
-      "threadCount" : 0,
+      "retryLimit" : null,
+      "batchSize" : null,
+      "threadCount" : null,
       "stepDefinitionName" : "default-mapping",
       "stepDefinitionType" : "MAPPING",
+      "customStep" : false,
       "mappingName" : "StarshipFlow-StarshipMap",
-      "mappingStep" : true,
-      "customStep" : false
+      "mappingStep" : true
     }
   }
 }
