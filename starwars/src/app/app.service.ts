@@ -13,13 +13,28 @@ export class AppService {
   search(query: string): Observable<any> {
     return this.http
       .get<any>(
-        `/v1/search?q=${query}&format=json&options=character&pageLength=300&collection=entity`
+        `/v1/search?q=${query}&format=json&options=character&pageLength=300&collection=entity&view=all`
       )
       .pipe(
         map(result => result.results),
         map((results: Array<any>) =>
           results.map(result =>
               this.getInstance(result.extracted.content[0], result.uri)
+          )
+        )
+      );
+  }
+
+  searchDoc(query: string): Observable<any> {
+    return this.http
+      .get<any>(
+        `/v1/search?q=${query}&format=json&options=character&pageLength=5&collection=article&view=all`
+      )
+      .pipe(
+        map(result => result.results),
+        map((results: Array<any>) =>
+          results.map(result =>
+            this.getInstance(result.extracted.content[0], result.uri)
           )
         )
       );
@@ -38,6 +53,8 @@ export class AppService {
       return { ...result.Starships, type: "starship", uri: uri };
     } else if (result.Species) {
       return { ...result.Species, type: "species", uri: uri };
+    } else if (result.Article) {
+      return {...result.Article, type: "article", uri: uri };
     }
   }
 

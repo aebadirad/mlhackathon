@@ -5,18 +5,22 @@
     <extract-path>//*:instance/*</extract-path>
   </extract-document-data>
   <constraint name="gender">
-    <value>
+     <range type="xs:string" facet="true">
       <element ns="" name="gender"/>
-    </value>
+	  <facet-option>frequency-order</facet-option>
+      <facet-option>descending</facet-option>
+    </range>
   </constraint> 
   <constraint name="type">
-    <value>
+     <range type="xs:string" facet="true">
       <element ns="" name="title"/>
-    </value>
+	  <facet-option>frequency-order</facet-option>
+      <facet-option>descending</facet-option>
+    </range>
   </constraint>
     <constraint name="homeworld">
     <value>
-      <element ns="" name="homeworld"/>
+      <element ns="" name="homeworld" />
     </value>
   </constraint>
 	<constraint name="species">
@@ -44,6 +48,13 @@
       <element ns="" name="residents"/>
     </value>
   </constraint>
+  <constraint name="entity">
+    <range type="xs:string" facet="true">
+       <element ns="http://marklogic.com/entity" name="entity" />
+	  <facet-option>frequency-order</facet-option>
+      <facet-option>descending</facet-option>
+    </range>
+  </constraint>
   <additional-query>
     <cts:not-query xmlns:cts="http://marklogic.com/cts">
       <cts:collection-query>
@@ -51,4 +62,5 @@
       </cts:collection-query>
     </cts:not-query>
   </additional-query>
+  <return-facets>true</return-facets>
 </options>

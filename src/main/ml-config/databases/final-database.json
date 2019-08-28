@@ -4,5 +4,31 @@
   "triggers-database": "%%mlFinalTriggersDbName%%",
   "triple-index": true,
   "collection-lexicon": true,
-  "uri-lexicon": true
+  "uri-lexicon": true,
+  "range-element-index": [
+    {
+      "scalar-type": "string",
+      "namespace-uri": "",
+      "localname": "gender",
+      "collation": "http://marklogic.com/collation/codepoint",
+      "range-value-positions": false,
+      "invalid-values": "reject"
+    },
+	   {
+      "scalar-type": "string",
+      "namespace-uri": "",
+      "localname": "title",
+      "collation": "http://marklogic.com/collation/codepoint",
+      "range-value-positions": false,
+      "invalid-values": "reject"
+    },
+	 {
+      "scalar-type": "string",
+      "namespace-uri": "http://marklogic.com/entity",
+      "localname": "entity",
+      "collation": "http://marklogic.com/collation",
+      "range-value-positions": false,
+      "invalid-values": "reject"
+    }
+	]
 }

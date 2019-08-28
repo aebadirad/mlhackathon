@@ -1,0 +1,22 @@
+{
+  "language" : "zxx",
+  "name" : "WookieMap",
+  "description" : "",
+  "type" : "CUSTOM",
+  "version" : 1,
+  "options" : {
+    "additionalCollections" : [ "wookiepedia", "enriched", "article" ],
+    "sourceQuery" : "cts.collectionQuery([\"IngestRaw\"])",
+    "targetEntity" : "",
+    "collections" : [ "WookieMap", "wookiepedia", "enriched", "article" ],
+    "sourceDatabase" : "data-hub-STAGING",
+    "sourceCollection" : "IngestRaw",
+    "outputFormat" : "json",
+    "targetDatabase" : "data-hub-FINAL"
+  },
+  "customHook" : { },
+  "modulePath" : "/custom-modules/custom/WookieMap/main.sjs",
+  "retryLimit" : 0,
+  "batchSize" : 100,
+  "threadCount" : 4
+}

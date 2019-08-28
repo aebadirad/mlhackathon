@@ -85,3 +85,24 @@ a {
     from {color: red;}
     to {color: #333;}
 }
+
+.header {
+  background: #B56B45;
+  padding: 40px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  min-width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid white;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+}

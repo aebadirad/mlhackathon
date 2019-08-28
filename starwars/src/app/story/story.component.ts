@@ -32,8 +32,20 @@ export class StoryComponent implements OnInit {
     "/planets/2.json",
     "/planets/3.json"
   ];
-
   constructor(private app: AppService) {}
+  results: any;
+
+  searchForm: FormGroup = new FormGroup({
+    q: new FormControl('')
+  });
+
+  search() {
+    this.app.searchDoc(this.searchForm.value.q).subscribe(res => {
+      this.results = res;
+    });
+  }
+
+
 
   getLukeDoc(){
     const uri = this.getUri('luke');

@@ -1,0 +1,69 @@
+{
+  "name" : "WookiepediaFlow",
+  "description" : "",
+  "batchSize" : 100,
+  "threadCount" : 4,
+  "stopOnError" : false,
+  "options" : { },
+  "version" : 0,
+  "steps" : {
+    "1" : {
+      "name" : "IngestRaw",
+      "description" : "",
+      "options" : {
+        "additionalCollections" : [ "wookiepedia", "rawArticle" ],
+        "headers" : {
+          "sources" : [ {
+            "name" : "WookiepediaFlow"
+          } ],
+          "createdOn" : "currentDateTime",
+          "createdBy" : "currentUser"
+        },
+        "sourceQuery" : "cts.collectionQuery([])",
+        "collections" : [ "IngestRaw", "wookiepedia", "rawArticle" ],
+        "permissions" : "rest-reader,read,rest-writer,update",
+        "outputFormat" : "text",
+        "targetDatabase" : "data-hub-STAGING"
+      },
+      "customHook" : { },
+      "retryLimit" : 0,
+      "batchSize" : 0,
+      "threadCount" : 0,
+      "stepDefinitionName" : "default-ingestion",
+      "stepDefinitionType" : "INGESTION",
+      "fileLocations" : {
+        "inputFilePath" : "C:\\Users\\Alex\\Documents\\mlhackathon\\input\\text-docs",
+        "inputFileType" : "text",
+        "outputURIReplacement" : "/C/Users/Alex/Documents/mlhackathon/input/text-docs/,'/articles/'",
+        "separator" : ","
+      },
+      "mappingName" : null,
+      "mappingStep" : false,
+      "customStep" : false
+    },
+    "2" : {
+      "name" : "WookieMap",
+      "description" : "",
+      "options" : {
+        "additionalCollections" : [ "wookiepedia", "enriched", "article" ],
+        "sourceQuery" : "cts.collectionQuery([\"IngestRaw\"])",
+        "targetEntity" : "",
+        "collections" : [ "WookieMap", "wookiepedia", "enriched", "article" ],
+        "sourceDatabase" : "data-hub-STAGING",
+        "sourceCollection" : "IngestRaw",
+        "outputFormat" : "xml",
+        "targetDatabase" : "data-hub-FINAL"
+      },
+      "customHook" : null,
+      "retryLimit" : null,
+      "batchSize" : null,
+      "threadCount" : null,
+      "stepDefinitionName" : "WookieMap",
+      "stepDefinitionType" : "CUSTOM",
+      "modulePath" : "/custom-modules/custom/WookieMap/main.sjs",
+      "mappingName" : null,
+      "mappingStep" : false,
+      "customStep" : true
+    }
+  }
+}

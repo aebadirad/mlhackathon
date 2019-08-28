@@ -1,3 +1,12 @@
+<div class="header" *ngIf="!doc">
+  <form [formGroup]="searchForm" (ngSubmit)="search()">
+    <div style="text-align:center">
+      <input formControlName="q" type="text">
+      <button type="submit">Search</button>
+    </div>
+  </form>
+</div>
+
 <div class="story-container" *ngIf="doc">
   <div *ngIf="doc.type == 'character'">
     <p>{{doc.name}} is a {{doc.gender}} {{doc.species}} <span *ngIf="descSet()">from {{doc.homeworld}}</span>
@@ -62,63 +71,8 @@
 </div>
 
 <div class="full-story-container" *ngIf="!doc">
-  <p><i (click)="refresh()" class="fab fa-rebel"></i> A<span *ngIf="descSet()">n Imperial</span> <span class="{{this.c('stardestroyer')}}" *ngIf="stardestroyer; else imperialstarship;">
-    <a routerLink="/details" [queryParams]="{uri: this.u('stardestroyer')}" target="_new"><a routerLink="/details" [queryParams]="{uri: this.u('stardestroyer')}" target="_new">{{stardestroyer}}</a></a></span> attacks <span *ngIf="descSet(); else convoy;">Princess Leia's personal ship</span><span
-    class="{{this.c('corvette')}}" *ngIf="corvette">, a <a routerLink="/details" [queryParams]="{uri: this.u('corvette')}" target="_new">{{corvette}}</a></span>, in search of the stolen plans to their new
-    <span *ngIf="deathstar; else militarybase;">battle station </span><span class="{{this.c('deathstar')}}" *ngIf="deathstar"><a routerLink="/details" [queryParams]="{uri: this.u('deathstar')}" target="_new">{{deathstar}}</a></span>. Leading the campaign is
-    <span class="{{this.c('vader')}}" *ngIf="vader"><a routerLink="/details" [queryParams]="{uri: this.u('vader')}" target="_new">{{vader}}</a></span> and his forces. They search the entire ship but
-    find no plans, just <span class="{{this.c('leia')}}" *ngIf="leia"><a routerLink="/details" [queryParams]="{uri: this.u('leia')}" target="_new">{{leia}}</a></span>
-    and her <span *ngIf="descSet(); else rebel;">rebel </span>escort.
-  </p>
-
-  <p>Unbeknownst to the <span *ngIf="descSet(); else empire;">Empire</span>, two of the ship's passengers, <span class="{{this.c('c3p0')}}" *ngIf="c3p0"><a routerLink="/details" [queryParams]="{uri: this.u('c3p0')}" target="_new">{{c3p0}}</a></span> and <span
-    class="{{this.c('r2d2')}}" *ngIf="r2d2"><a routerLink="/details" [queryParams]="{uri: this.u('r2d2')}" target="_new">{{r2d2}}</a></span>, escaped with the plans and have landed <span
-    class="{{this.c('tatooine')}}" *ngIf="tatooine; else desertplanet;">on <a routerLink="/details" [queryParams]="{uri: this.u('tatooine')}" target="_new">{{tatooine}}</a> below</span> They are <span *ngIf="descSet(); else enslaved;">purchased</span> by a farmer<span class="{{this.c('owenlars')}}" *ngIf="owenlars">, <a routerLink="/details" [queryParams]="{uri: this.u('owenlars')}" target="_new">{{owenlars}}</a>,</span> and
-    his nephew, <span class="{{this.c('luke')}}" *ngIf="luke"><a routerLink="/details" [queryParams]="{uri: this.u('luke')}" target="_new">{{luke}}</a></span>.
-    <span class="{{this.c('r2d2')}}" *ngIf="r2d2"><a routerLink="/details" [queryParams]="{uri: this.u('r2d2')}" target="_new">{{r2d2}}</a></span> escapes
-    from <span class="{{this.c('luke')}}" *ngIf="luke"><a routerLink="/details" [queryParams]="{uri: this.u('luke')}" target="_new">{{luke}}'s</a></span> custody
-    to search for <span class="{{this.c('obiwan')}}" *ngIf="obiwan"><a routerLink="/details" [queryParams]="{uri: this.u('obiwan')}" target="_new">{{obiwan}}</a></span>. <span class="{{this.c('luke')}}" *ngIf="luke">
-      <a routerLink="/details" [queryParams]="{uri: this.u('luke')}" target="_new">{{luke}}</a></span>
-    follows <span class="{{this.c('r2d2')}}" *ngIf="r2d2"><a routerLink="/details" [queryParams]="{uri: this.u('r2d2')}" target="_new">{{r2d2}}</a></span>, and after a tussle with some Sand People,
-    they find <span class="{{this.c('obiwan')}}" *ngIf="obiwan"><a routerLink="/details" [queryParams]="{uri: this.u('obiwan')}" target="_new">{{obiwan}}</a></span>,
-    where he tells <span class="{{this.c('luke')}}" *ngIf="luke"><a routerLink="/details" [queryParams]="{uri: this.u('luke')}" target="_new">{{luke}}</a></span> about his <span *ngIf="descSet(); else heritage;">lightsabers, the Force, and
-      his father's fate.</span></p>
-
-  <p><span *ngIf="descSet(); else imperials;">Imperial stormtroopers</span>, having picked up the <span class="{{this.c('r2d2')}}" *ngIf="c3p0 && r2d2 && descSet(); else courior"><a routerLink="/details" [queryParams]="{uri: this.u('r2d2')}" target="_new">droids'</a></span>
-    trail, locate and murder <span class="{{this.c('luke')}}" *ngIf="luke"><a routerLink="/details" [queryParams]="{uri: this.u('luke')}" target="_new">{{luke}}'s</a></span> family. With no ties to
-    <span *ngIf="tatooine; else deserthome;">the planet</span>, <span class="{{this.c('luke')}}" *ngIf="luke"><a routerLink="/details" [queryParams]="{uri: this.u('luke')}" target="_new">{{luke}}</a></span> agrees to go with <span
-      class="{{this.c('obiwan')}}" *ngIf="obiwan"><a routerLink="/details" [queryParams]="{uri: this.u('obiwan')}" target="_new">{{obiwan}}</a></span> to deliver the stolen plans to <span class="{{this.c('alderaan')}}" *ngIf="alderaan; else planetalderaan2"><a routerLink="/details" [queryParams]="{uri: this.u('alderaan')}" target="_new">{{alderaan}}</a></span><span *ngIf="descSet();">, home of Princess Leia,</span> and
-    learn the ways of <span *ngIf="descSet(); else religion;">the Force</span>. At <span *ngIf="descSet(); else mos;">Mos Eisley</span>, they charter a ride with <span class="{{this.c('solo')}}" *ngIf="solo">
-      <a routerLink="/details" [queryParams]="{uri: this.u('solo')}" target="_new">{{solo}}</a></span> and <span class="{{this.c('chewy')}}" *ngIf="chewy"><a routerLink="/details" [queryParams]="{uri: this.u('chewy')}" target="_new">{{chewy}}</a></span>,
-    the crew of <span class="{{this.c('falcon')}}" *ngIf="falcon; else falconship;"><a routerLink="/details" [queryParams]="{uri: this.u('falcon')}" target="_new">{{falcon}}</a></span>.</p>
-
-  <p>The <span class="{{this.c('falcon')}}" *ngIf="falcon else falconship;"><a routerLink="/details" [queryParams]="{uri: this.u('falcon')}" target="_new">{{falcon}}</a></span> evades the <span *ngIf="descSet(); else imperials;">Imperials</span> and makes the <span *ngIf="descSet(); else lightspeed;">jump to
-    lightspeed</span>. When they <span *ngIf="descSet(); else hyperspace;">come out of hyperspace</span>, they learn
-    that the <span class="{{this.c('deathstar')}}" *ngIf="deathstar; else empire;"><a routerLink="/details" [queryParams]="{uri: this.u('deathstar')}" target="_new">{{deathstar}}</a></span> has destroyed the <span *ngIf="alderaan; else planetalderaan;">planet</span> and
-    they are captured. Trapped aboard the <span class="{{this.c('deathstar')}}" *ngIf="deathstar; else militarybase;"><a routerLink="/details" [queryParams]="{uri: this.u('deathstar')}" target="_new">{{deathstar}}</a></span>,
-    they devise an escape
-    plan. <span class="{{this.c('obiwan')}}" *ngIf="obiwan"><a routerLink="/details" [queryParams]="{uri: this.u('obiwan')}" target="_new">{{obiwan}}</a></span> goes to turn off the power to the <span *ngIf="descSet(); else tractor;">tractor
-      beam</span> while <span class="{{this.c('luke')}}" *ngIf="luke"><a routerLink="/details" [queryParams]="{uri: this.u('luke')}" target="_new">{{luke}}</a></span> convinces <span class="{{this.c('solo')}}"
-                                                                                             *ngIf="solo"><a routerLink="/details" [queryParams]="{uri: this.u('solo')}" target="_new">{{solo}}</a></span>
-    to help him rescue <span class="{{this.c('leia')}}" *ngIf="leia"><a routerLink="/details" [queryParams]="{uri: this.u('leia')}" target="_new">{{leia}}</a></span>.</p>
-
-  <p>The group manages to rescue <span class="{{this.c('leia')}}" *ngIf="leia"><a routerLink="/details" [queryParams]="{uri: this.u('leia')}" target="_new">{{leia}}</a></span>, and after a quick detour
-    through the trash compactor, return to the <span class="{{this.c('falcon')}}" *ngIf="falcon; else falconship;"><a routerLink="/details" [queryParams]="{uri: this.u('falcon')}" target="_new">{{falcon}}</a></span>.
-    <span class="{{this.c('obiwan')}}" *ngIf="obiwan"><a routerLink="/details" [queryParams]="{uri: this.u('obiwan')}" target="_new">{{obiwan}}</a></span> turns off the <span *ngIf="descSet(); else tractor;">tractor beam</span> but is confronted by
-    <span class="{{this.c('vader')}}" *ngIf="vader"><a routerLink="/details" [queryParams]="{uri: this.u('vader')}" target="_new">{{vader}}</a></span> on his way back to the ship. With a knowing smile,
-    <span class="{{this.c('obiwan')}}" *ngIf="obiwan"><a routerLink="/details" [queryParams]="{uri: this.u('obiwan')}" target="_new">{{obiwan}}</a></span> willingly sacrifices himself to help the others
-    escape.</p>
-
-  <p><span class="{{this.c('leia')}}" *ngIf="leia"><a routerLink="/details" [queryParams]="{uri: this.u('leia')}" target="_new">{{leia}}</a></span> leads the
-    <span class="{{this.c('falcon')}}" *ngIf="falcon; else falconship;"><a routerLink="/details" [queryParams]="{uri: this.u('falcon')}" target="_new">{{falcon}}</a></span> to
-    the <span *ngIf="descSet(); else rebel">Rebel</span> base<span class="{{this.c('yavin')}}" *ngIf="yavin"> on <a routerLink="/details" [queryParams]="{uri: this.u('yavin')}" target="_new">{{yavin}}</a></span> (although the <span *ngIf="descSet(); else empire;">Empire</span> is tracking
-    them). Using <span class="{{this.c('r2d2')}}" *ngIf="r2d2"><a routerLink="/details" [queryParams]="{uri: this.u('r2d2')}" target="_new">{{r2d2}}'s</a></span> stolen
-    data, the <span *ngIf="descSet(); else rebels">Rebels</span> strategize to destroy the <span class="{{this.c('deathstar')}}" *ngIf="deathstar; else militarybase;"><a routerLink="/details" [queryParams]="{uri: this.u('deathstar')}" target="_new">{{deathstar}}</a></span> by
-    having a single-man <span class="{{this.c('xwing')}}" *ngIf="xwing"><a routerLink="/details" [queryParams]="{uri: this.u('xwing')}" target="_new">{{xwing}} fighter</a></span> <span *ngIf="descSet(); else bomb;">launch a photon torpedo into a
-    tiny exhaust port connected to the station's reactor</span>. <span class="{{this.c('solo')}}" *ngIf="solo"><a routerLink="/details" [queryParams]="{uri: this.u('solo')}" target="_new">{{solo}}</a></span>
-    decides to skip the suicide run and settle his debt with
-    <span class="{{this.c('jabba')}}" *ngIf="jabba"><a routerLink="/details" [queryParams]="{uri: this.u('jabba')}" target="_new">{{jabba}}</a></span>.</p>
-
+  <p><i (click)="refresh()" class="fab fa-rebel"></i>
+  {{article}}
   <p>The <span class="{{this.c('deathstar')}}" *ngIf="deathstar; else empire;"><a routerLink="/details" [queryParams]="{uri: this.u('deathstar')}" target="_new">{{deathstar}}</a></span> prepares to destroy the <span *ngIf="descSet(); else rebel">Rebel</span> base
     while <span class="{{this.c('luke')}}" *ngIf="luke"><a routerLink="/details" [queryParams]="{uri: this.u('luke')}" target="_new">{{luke}}</a></span> joins the <span *ngIf="descSet(); else rebels">Rebels</span> in their offensive. Most of the
     <span *ngIf="descSet(); else rebels">Rebels</span> are killed in the fight, but <span class="{{this.c('solo')}}" *ngIf="solo"><a routerLink="/details" [queryParams]="{uri: this.u('solo')}" target="_new">{{solo}}</a></span> returns at the most dramatic
@@ -129,81 +83,3 @@
 
   <p>One award ceremony later and its happy endings all around.</p>
 </div>
-
-<ng-template #bomb>
-  detonate a bomb inside the military base
-</ng-template>
-
-<ng-template #heritage>
-  heritage, his eccentric religion, and his father's fate.
-</ng-template>
-
-<ng-template #mos>
-  a port city
-</ng-template>
-<ng-template #planetalderaan2>
-  the guerillas
-</ng-template>
-<ng-template #planetalderaan>
-  place
-</ng-template>
-<ng-template #tractor>
-  gates
-</ng-template>
-<ng-template #hyperspace>
-  arrive
-</ng-template>
-
-<ng-template #lightspeed>
-  escape quickly
-</ng-template>
-
-<ng-template #rebels>
-  guerrillas
-</ng-template>
-
-<ng-template #rebel>
-  guerrilla
-</ng-template>
-
-<ng-template #falconship>
-  rusty, old ship
-</ng-template>
-
-<ng-template #imperials>
-  government forces
-</ng-template>
-
-<ng-template #empire>
-  government
-</ng-template>
-<ng-template #convoy>
-a convoy
-</ng-template>
-<ng-template #religion>
-  his ancient, mystic religion
-</ng-template>
-
-<ng-template #enslaved>
-  enslaved
-</ng-template>
-
-<ng-template #deserthome>
-  home
-</ng-template>
-
-<ng-template #desertplanet>
-in a vast desert
-</ng-template>
-
-<ng-template #militarybase>
-  military base
-</ng-template>
-
-<ng-template #courior>
-  couriors
-</ng-template>
-
-<ng-template #imperialstarship>
-  government vehicle
-</ng-template>
