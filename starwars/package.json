@@ -22,7 +22,7 @@
     "@angular/platform-browser-dynamic": "^5.2.11",
     "@angular/router": "^5.2.11",
     "core-js": "^2.6.9",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "ml-lodlive": "git+https://github.com/withjam/ml-lodlive.git",
     "rxjs": "^5.5.12",
     "vis": "^4.21.0",
